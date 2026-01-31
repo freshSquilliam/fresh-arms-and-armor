@@ -4,5 +4,11 @@
   "item.fresh_arms_and_armor.iron_greatsword": "Iron Greatsword",
   "item.fresh_arms_and_armor.golden_greatsword": "Golden Greatsword",
   "item.fresh_arms_and_armor.diamond_greatsword": "Diamond Greatsword",
-  "item.fresh_arms_and_armor.netherite_greatsword": "Netherite Greatsword"
+  "item.fresh_arms_and_armor.netherite_greatsword": "Netherite Greatsword",
+  "item.fresh_arms_and_armor.iron_greataxe": "Iron Greataxe",
+  "item.fresh_arms_and_armor.wooden_greataxe": "Wooden Greataxe",
+  "item.fresh_arms_and_armor.stone_greataxe": "Stone Greataxe",
+  "item.fresh_arms_and_armor.golden_greataxe": "Golden Greataxe",
+  "item.fresh_arms_and_armor.diamond_greataxe": "Diamond Greataxe",
+  "item.fresh_arms_and_armor.netherite_greataxe": "Netherite Greataxe"
 }

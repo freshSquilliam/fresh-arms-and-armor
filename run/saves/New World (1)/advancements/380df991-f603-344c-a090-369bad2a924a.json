@@ -19,6 +19,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:creeper": "2026-01-30 21:43:14 -0500",
       "minecraft:slime": "2026-01-20 22:44:09 -0500",
       "minecraft:zombie": "2026-01-18 22:11:21 -0500"
     },
@@ -771,6 +772,42 @@
   "minecraft:recipes/tools/lead": {
     "criteria": {
       "has_slime_ball": "2026-01-20 22:44:25 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_sword": "2026-01-30 18:22:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_sword": "2026-01-30 18:22:10 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_sword": "2026-01-30 18:22:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_sword": "2026-01-30 18:22:11 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2026-01-30 21:43:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2026-01-30 21:43:14 -0500"
     },
     "done": true
   },

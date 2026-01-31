@@ -110,6 +110,12 @@ public class FreshArmsAndArmor
             event.accept(ModItems.GOLDEN_GREATSWORD);
             event.accept(ModItems.DIAMOND_GREATSWORD);
             event.accept(ModItems.NETHERITE_GREATSWORD);
+            event.accept(ModItems.WOODEN_GREATAXE);
+            event.accept(ModItems.STONE_GREATAXE);
+            event.accept(ModItems.IRON_GREATAXE);
+            event.accept(ModItems.GOLDEN_GREATAXE);
+            event.accept(ModItems.DIAMOND_GREATAXE);
+            event.accept(ModItems.NETHERITE_GREATAXE);
         }
     }
 
