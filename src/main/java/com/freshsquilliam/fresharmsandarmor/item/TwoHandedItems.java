@@ -8,7 +8,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-public class ModItems {
+public class TwoHandedItems {
 
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, FreshArmsAndArmor.MODID);
@@ -17,8 +17,8 @@ public class ModItems {
             ITEMS.register("wooden_greatsword", () ->
                     new SwordItem(
                             Tiers.WOOD,
-                            7,
-                            -2.7F,
+                            9,
+                            -3.06F,
                             new Item.Properties()
                     )
             );
@@ -27,8 +27,8 @@ public class ModItems {
             ITEMS.register("stone_greatsword", () ->
                     new SwordItem(
                             Tiers.STONE,
-                            7,
-                            -2.67F,
+                            9,
+                            -3F,
                             new Item.Properties()
                     )
             );
@@ -37,8 +37,8 @@ public class ModItems {
             ITEMS.register("iron_greatsword", () ->
                     new SwordItem(
                             Tiers.IRON,
-                            7,
-                            -2.64F,
+                            9,
+                            -2.95F,
                             new Item.Properties()
                     )
             );
@@ -47,8 +47,8 @@ public class ModItems {
             ITEMS.register("golden_greatsword", () ->
                     new SwordItem(
                             Tiers.GOLD,
-                            7,
-                            -2.64F,
+                            9,
+                            -2.95F,
                             new Item.Properties()
                     )
             );
@@ -57,8 +57,8 @@ public class ModItems {
             ITEMS.register("diamond_greatsword", () ->
                     new SwordItem(
                             Tiers.DIAMOND,
-                            7,
-                            -2.62F,
+                            9,
+                            -2.91F,
                             new Item.Properties()
                     )
             );
@@ -67,8 +67,8 @@ public class ModItems {
             ITEMS.register("netherite_greatsword", () ->
                     new SwordItem(
                             Tiers.NETHERITE,
-                            7,
-                            -2.6F,
+                            9,
+                            -2.87F,
                             new Item.Properties().fireResistant()
                     )
             );
@@ -77,8 +77,8 @@ public class ModItems {
             ITEMS.register("wooden_greataxe", () ->
                     new SwordItem(
                             Tiers.WOOD,
-                            8,
-                            -2.84F,
+                            10,
+                            -3.05F,
                             new Item.Properties()
                     )
             );
@@ -87,8 +87,8 @@ public class ModItems {
             ITEMS.register("stone_greataxe", () ->
                     new SwordItem(
                             Tiers.STONE,
-                            8,
-                            -2.8F,
+                            10,
+                            -3.08F,
                             new Item.Properties()
                     )
             );
@@ -97,8 +97,8 @@ public class ModItems {
             ITEMS.register("iron_greataxe", () ->
                     new SwordItem(
                             Tiers.IRON,
-                            8,
-                            -2.76F,
+                            10,
+                            -3.03F,
                             new Item.Properties()
                     )
             );
@@ -107,8 +107,8 @@ public class ModItems {
             ITEMS.register("golden_greataxe", () ->
                     new SwordItem(
                             Tiers.GOLD,
-                            8,
-                            -2.76F,
+                            10,
+                            -3.03F,
                             new Item.Properties()
                     )
             );
@@ -117,8 +117,8 @@ public class ModItems {
             ITEMS.register("diamond_greataxe", () ->
                     new SwordItem(
                             Tiers.DIAMOND,
-                            8,
-                            -2.73F,
+                            10,
+                            -2.99F,
                             new Item.Properties()
                     )
             );
@@ -127,9 +127,70 @@ public class ModItems {
             ITEMS.register("netherite_greataxe", () ->
                     new SwordItem(
                             Tiers.NETHERITE,
-                            8,
-                            -2.71F,
+                            10,
+                            -2.95F,
                             new Item.Properties()
                     )
             );
+
+    public static final RegistryObject<Item> WOODEN_MAUL =
+            ITEMS.register("wooden_maul", () ->
+                    new SwordItem(
+                            Tiers.WOOD,
+                            11,
+                            -3.22F,
+                            new Item.Properties()
+                    )
+            );
+
+    public static final RegistryObject<Item> STONE_MAUL =
+            ITEMS.register("stone_maul", () ->
+                    new SwordItem(
+                            Tiers.STONE,
+                            11,
+                            -3.08F,
+                            new Item.Properties()
+                    )
+            );
+
+    public static final RegistryObject<Item> IRON_MAUL =
+            ITEMS.register("iron_maul", () ->
+                    new SwordItem(
+                            Tiers.IRON,
+                            11,
+                            -3.03F,
+                            new Item.Properties()
+                    )
+            );
+
+    public static final RegistryObject<Item> GOLDEN_MAUL =
+            ITEMS.register("golden_maul", () ->
+                    new SwordItem(
+                            Tiers.GOLD,
+                            11,
+                            -3.03F,
+                            new Item.Properties()
+                    )
+            );
+
+    public static final RegistryObject<Item> DIAMOND_MAUL =
+            ITEMS.register("diamond_maul", () ->
+                    new SwordItem(
+                            Tiers.DIAMOND,
+                            11,
+                            -2.99F,
+                            new Item.Properties()
+                    )
+            );
+
+    public static final RegistryObject<Item> NETHERITE_MAUL =
+            ITEMS.register("netherite_maul", () ->
+                    new SwordItem(
+                            Tiers.NETHERITE,
+                            11,
+                            -3.01F,
+                            new Item.Properties().fireResistant()
+                    )
+            );
+
 }

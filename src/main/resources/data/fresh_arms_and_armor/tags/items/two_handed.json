@@ -5,6 +5,12 @@
     "fresh_arms_and_armor:iron_greatsword",
     "fresh_arms_and_armor:diamond_greatsword",
     "fresh_arms_and_armor:netherite_greatsword",
-    "fresh_arms_and_armor:iron_greataxe"
+
+    "item.fresh_arms_and_armor.iron_greataxe",
+    "item.fresh_arms_and_armor.wooden_greataxe",
+    "item.fresh_arms_and_armor.stone_greataxe",
+    "item.fresh_arms_and_armor.golden_greataxe",
+    "item.fresh_arms_and_armor.diamond_greataxe",
+    "item.fresh_arms_and_armor.netherite_greataxe"
   ]
 }

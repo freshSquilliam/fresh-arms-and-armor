@@ -1,14 +1,24 @@
 {
+  "creativetab.fresh_arms_and_armor": "Fresh Arms & Armor",
+
   "item.fresh_arms_and_armor.wooden_greatsword": "Wooden Greatsword",
   "item.fresh_arms_and_armor.stone_greatsword": "Stone Greatsword",
   "item.fresh_arms_and_armor.iron_greatsword": "Iron Greatsword",
   "item.fresh_arms_and_armor.golden_greatsword": "Golden Greatsword",
   "item.fresh_arms_and_armor.diamond_greatsword": "Diamond Greatsword",
   "item.fresh_arms_and_armor.netherite_greatsword": "Netherite Greatsword",
+
   "item.fresh_arms_and_armor.iron_greataxe": "Iron Greataxe",
   "item.fresh_arms_and_armor.wooden_greataxe": "Wooden Greataxe",
   "item.fresh_arms_and_armor.stone_greataxe": "Stone Greataxe",
   "item.fresh_arms_and_armor.golden_greataxe": "Golden Greataxe",
   "item.fresh_arms_and_armor.diamond_greataxe": "Diamond Greataxe",
-  "item.fresh_arms_and_armor.netherite_greataxe": "Netherite Greataxe"
+  "item.fresh_arms_and_armor.netherite_greataxe": "Netherite Greataxe",
+
+  "item.fresh_arms_and_armor.wooden_maul": "Wooden Maul",
+  "item.fresh_arms_and_armor.stone_maul": "Stone Maul",
+  "item.fresh_arms_and_armor.iron_maul": "Iron Maul",
+  "item.fresh_arms_and_armor.golden_maul": "Golden Maul",
+  "item.fresh_arms_and_armor.diamond_maul": "Diamond Maul",
+  "item.fresh_arms_and_armor.netherite_maul": "Netherite Maul"
 }
