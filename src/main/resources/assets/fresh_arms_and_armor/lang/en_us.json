@@ -25,6 +25,21 @@
   "item.fresh_arms_and_armor.barbarian_helmet": "Barbarian Helmet",
   "item.fresh_arms_and_armor.barbarian_chestplate": "Barbarian Chestplate",
   "item.fresh_arms_and_armor.barbarian_leggings": "Barbarian Leggings",
-  "item.fresh_arms_and_armor.barbarian_boots": "Barbarian Boots"
+  "item.fresh_arms_and_armor.barbarian_boots": "Barbarian Boots",
+
+  "item.fresh_arms_and_armor.iron_barbarian_helmet": "Iron Barbarian Helmet",
+  "item.fresh_arms_and_armor.iron_barbarian_chestplate": "Iron Barbarian Chestplate",
+  "item.fresh_arms_and_armor.iron_barbarian_leggings": "Iron Barbarian Leggings",
+  "item.fresh_arms_and_armor.iron_barbarian_boots": "Iron Barbarian Boots",
+
+  "item.fresh_arms_and_armor.diamond_barbarian_helmet": "Diamond Barbarian Helmet",
+  "item.fresh_arms_and_armor.diamond_barbarian_chestplate": "Diamond Barbarian Chestplate",
+  "item.fresh_arms_and_armor.diamond_barbarian_leggings": "Diamond Barbarian Leggings",
+  "item.fresh_arms_and_armor.diamond_barbarian_boots": "Diamond Barbarian Boots",
+
+  "item.fresh_arms_and_armor.netherite_barbarian_helmet": "Netherite Barbarian Helmet",
+  "item.fresh_arms_and_armor.netherite_barbarian_chestplate": "Netherite Barbarian Chestplate",
+  "item.fresh_arms_and_armor.netherite_barbarian_leggings": "Netherite Barbarian Leggings",
+  "item.fresh_arms_and_armor.netherite_barbarian_boots": "Netherite Barbarian Boots"
 
 }

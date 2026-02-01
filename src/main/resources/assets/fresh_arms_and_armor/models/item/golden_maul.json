@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "fresh_arms_and_armor:item/golden_greataxe"
+    "layer0": "fresh_arms_and_armor:item/golden_maul"
   },
   "display": {
     "thirdperson_righthand": {

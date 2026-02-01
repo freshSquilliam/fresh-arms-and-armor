@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "  G",
-    "GG ",
-    "SG "
+    "DDD",
+    "DSD",
+    " S "
   ],
   "key": {
-    "G": {
-      "item": "minecraft:gold_ingot"
+    "D": {
+      "item": "minecraft:diamond"
     },
     "S": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "fresh_arms_and_armor:gold_greatsword"
+    "item": "fresh_arms_and_armor:diamond_maul"
   }
 }
