@@ -1,6 +1,7 @@
 package com.freshsquilliam.fresharmsandarmor.item;
 
 import com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor;
+import com.freshsquilliam.fresharmsandarmor.item.armor.BarbarianArmorItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,33 +20,39 @@ public class ModCreativeTabs {
                                     "creativetab.fresh_arms_and_armor"
                             ))
                             .icon(() ->
-                                    TwoHandedItems.NETHERITE_GREATSWORD.get().getDefaultInstance()
+                                    TwoHandedWeapons.NETHERITE_GREATSWORD.get().getDefaultInstance()
                             )
                             .displayItems((parameters, output) -> {
 
                                 // Greatswords
-                                output.accept(TwoHandedItems.WOODEN_GREATSWORD.get());
-                                output.accept(TwoHandedItems.STONE_GREATSWORD.get());
-                                output.accept(TwoHandedItems.IRON_GREATSWORD.get());
-                                output.accept(TwoHandedItems.GOLDEN_GREATSWORD.get());
-                                output.accept(TwoHandedItems.DIAMOND_GREATSWORD.get());
-                                output.accept(TwoHandedItems.NETHERITE_GREATSWORD.get());
+                                output.accept(TwoHandedWeapons.WOODEN_GREATSWORD.get());
+                                output.accept(TwoHandedWeapons.STONE_GREATSWORD.get());
+                                output.accept(TwoHandedWeapons.IRON_GREATSWORD.get());
+                                output.accept(TwoHandedWeapons.GOLDEN_GREATSWORD.get());
+                                output.accept(TwoHandedWeapons.DIAMOND_GREATSWORD.get());
+                                output.accept(TwoHandedWeapons.NETHERITE_GREATSWORD.get());
 
                                 // Greataxes
-                                output.accept(TwoHandedItems.WOODEN_GREATAXE.get());
-                                output.accept(TwoHandedItems.STONE_GREATAXE.get());
-                                output.accept(TwoHandedItems.IRON_GREATAXE.get());
-                                output.accept(TwoHandedItems.GOLDEN_GREATAXE.get());
-                                output.accept(TwoHandedItems.DIAMOND_GREATAXE.get());
-                                output.accept(TwoHandedItems.NETHERITE_GREATAXE.get());
+                                output.accept(TwoHandedWeapons.WOODEN_GREATAXE.get());
+                                output.accept(TwoHandedWeapons.STONE_GREATAXE.get());
+                                output.accept(TwoHandedWeapons.IRON_GREATAXE.get());
+                                output.accept(TwoHandedWeapons.GOLDEN_GREATAXE.get());
+                                output.accept(TwoHandedWeapons.DIAMOND_GREATAXE.get());
+                                output.accept(TwoHandedWeapons.NETHERITE_GREATAXE.get());
 
                                 // Mauls
-                                output.accept(TwoHandedItems.WOODEN_MAUL.get());
-                                output.accept(TwoHandedItems.STONE_MAUL.get());
-                                output.accept(TwoHandedItems.IRON_MAUL.get());
-                                output.accept(TwoHandedItems.GOLDEN_MAUL.get());
-                                output.accept(TwoHandedItems.DIAMOND_MAUL.get());
-                                output.accept(TwoHandedItems.NETHERITE_MAUL.get());
+                                output.accept(TwoHandedWeapons.WOODEN_MAUL.get());
+                                output.accept(TwoHandedWeapons.STONE_MAUL.get());
+                                output.accept(TwoHandedWeapons.IRON_MAUL.get());
+                                output.accept(TwoHandedWeapons.GOLDEN_MAUL.get());
+                                output.accept(TwoHandedWeapons.DIAMOND_MAUL.get());
+                                output.accept(TwoHandedWeapons.NETHERITE_MAUL.get());
+
+                                // Barbarian Armor
+                                output.accept(BarbarianArmorItems.BARBARIAN_HELMET.get());
+                                output.accept(BarbarianArmorItems.BARBARIAN_CHESTPLATE.get());
+                                output.accept(BarbarianArmorItems.BARBARIAN_LEGGINGS.get());
+                                output.accept(BarbarianArmorItems.BARBARIAN_BOOTS.get());
 
                             })
                             .build()

@@ -20,5 +20,11 @@
   "item.fresh_arms_and_armor.iron_maul": "Iron Maul",
   "item.fresh_arms_and_armor.golden_maul": "Golden Maul",
   "item.fresh_arms_and_armor.diamond_maul": "Diamond Maul",
-  "item.fresh_arms_and_armor.netherite_maul": "Netherite Maul"
+  "item.fresh_arms_and_armor.netherite_maul": "Netherite Maul",
+
+  "item.fresh_arms_and_armor.barbarian_helmet": "Barbarian Helmet",
+  "item.fresh_arms_and_armor.barbarian_chestplate": "Barbarian Chestplate",
+  "item.fresh_arms_and_armor.barbarian_leggings": "Barbarian Leggings",
+  "item.fresh_arms_and_armor.barbarian_boots": "Barbarian Boots"
+
 }

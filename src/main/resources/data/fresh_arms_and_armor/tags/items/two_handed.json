@@ -11,6 +11,13 @@
     "item.fresh_arms_and_armor.stone_greataxe",
     "item.fresh_arms_and_armor.golden_greataxe",
     "item.fresh_arms_and_armor.diamond_greataxe",
-    "item.fresh_arms_and_armor.netherite_greataxe"
+    "item.fresh_arms_and_armor.netherite_greataxe",
+
+    "fresh_arms_and_armor:wooden_maul",
+    "fresh_arms_and_armor:stone_maul",
+    "fresh_arms_and_armor:iron_maul",
+    "fresh_arms_and_armor:golden_maul",
+    "fresh_arms_and_armor:diamond_maul",
+    "fresh_arms_and_armor:netherite_maul"
   ]
 }

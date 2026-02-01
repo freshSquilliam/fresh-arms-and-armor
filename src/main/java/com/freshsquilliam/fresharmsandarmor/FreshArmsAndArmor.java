@@ -1,7 +1,8 @@
 package com.freshsquilliam.fresharmsandarmor;
 
 import com.freshsquilliam.fresharmsandarmor.item.ModCreativeTabs;
-import com.freshsquilliam.fresharmsandarmor.item.TwoHandedItems;
+import com.freshsquilliam.fresharmsandarmor.item.TwoHandedWeapons;
+import com.freshsquilliam.fresharmsandarmor.item.armor.BarbarianArmorItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
@@ -28,7 +29,8 @@ public class FreshArmsAndArmor {
         modEventBus.addListener(this::commonSetup);
         ModCreativeTabs.TABS.register(modEventBus);
 
-        TwoHandedItems.ITEMS.register(modEventBus);
+        TwoHandedWeapons.ITEMS.register(modEventBus);
+        BarbarianArmorItems.ITEMS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 
