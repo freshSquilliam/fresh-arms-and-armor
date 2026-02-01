@@ -48,11 +48,23 @@ public class ModCreativeTabs {
                                 output.accept(TwoHandedWeapons.DIAMOND_MAUL.get());
                                 output.accept(TwoHandedWeapons.NETHERITE_MAUL.get());
 
-                                // Barbarian Armor
-                                output.accept(BarbarianArmorItems.BARBARIAN_HELMET.get());
-                                output.accept(BarbarianArmorItems.BARBARIAN_CHESTPLATE.get());
-                                output.accept(BarbarianArmorItems.BARBARIAN_LEGGINGS.get());
-                                output.accept(BarbarianArmorItems.BARBARIAN_BOOTS.get());
+                                // Barbarian Armor – Iron
+                                output.accept(BarbarianArmorItems.IRON_BARBARIAN_HELMET.get());
+                                output.accept(BarbarianArmorItems.IRON_BARBARIAN_CHESTPLATE.get());
+                                output.accept(BarbarianArmorItems.IRON_BARBARIAN_LEGGINGS.get());
+                                output.accept(BarbarianArmorItems.IRON_BARBARIAN_BOOTS.get());
+
+                                // Barbarian Armor – Diamond
+                                output.accept(BarbarianArmorItems.DIAMOND_BARBARIAN_HELMET.get());
+                                output.accept(BarbarianArmorItems.DIAMOND_BARBARIAN_CHESTPLATE.get());
+                                output.accept(BarbarianArmorItems.DIAMOND_BARBARIAN_LEGGINGS.get());
+                                output.accept(BarbarianArmorItems.DIAMOND_BARBARIAN_BOOTS.get());
+
+                                // Barbarian Armor – Netherite
+                                output.accept(BarbarianArmorItems.NETHERITE_BARBARIAN_HELMET.get());
+                                output.accept(BarbarianArmorItems.NETHERITE_BARBARIAN_CHESTPLATE.get());
+                                output.accept(BarbarianArmorItems.NETHERITE_BARBARIAN_LEGGINGS.get());
+                                output.accept(BarbarianArmorItems.NETHERITE_BARBARIAN_BOOTS.get());
 
                             })
                             .build()

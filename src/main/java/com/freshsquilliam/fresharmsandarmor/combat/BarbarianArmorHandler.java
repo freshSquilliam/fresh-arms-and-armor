@@ -12,17 +12,14 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber
 public class BarbarianArmorHandler {
 
-    private static final float BONUS_PER_PIECE = 0.05F;
-
     @SubscribeEvent
     public static void onLivingHurt(LivingHurtEvent event) {
         if (!(event.getSource().getEntity() instanceof Player player)) return;
 
         ItemStack weapon = player.getMainHandItem();
-
         if (!weapon.is(ModItemTags.TWO_HANDED)) return;
 
-        int pieces = 0;
+        float bonus = 0.0F;
 
         for (EquipmentSlot slot : new EquipmentSlot[]{
                 EquipmentSlot.HEAD,
@@ -30,18 +27,14 @@ public class BarbarianArmorHandler {
                 EquipmentSlot.LEGS,
                 EquipmentSlot.FEET
         }) {
-            if (isBarbarianArmor(player.getItemBySlot(slot))) {
-                pieces++;
+            ItemStack stack = player.getItemBySlot(slot);
+            if (stack.getItem() instanceof BarbarianArmor armor) {
+                bonus += armor.getTier().getDamageBonusPerPiece();
             }
         }
 
-        if (pieces == 0) return;
+        if (bonus == 0.0F) return;
 
-        float multiplier = 1.0F + (pieces * BONUS_PER_PIECE);
-        event.setAmount(event.getAmount() * multiplier);
-    }
-
-    private static boolean isBarbarianArmor(ItemStack stack) {
-        return stack.getItem() instanceof BarbarianArmor;
+        event.setAmount(event.getAmount() * (1.0F + bonus));
     }
 }
