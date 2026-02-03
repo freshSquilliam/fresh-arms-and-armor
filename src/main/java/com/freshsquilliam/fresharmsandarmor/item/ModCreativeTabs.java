@@ -1,7 +1,6 @@
 package com.freshsquilliam.fresharmsandarmor.item;
 
 import com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor;
-import com.freshsquilliam.fresharmsandarmor.item.armor.BarbarianArmorItems;
 import com.freshsquilliam.fresharmsandarmor.item.shield.ShieldItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -15,7 +14,7 @@ public class ModCreativeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, FreshArmsAndArmor.MODID);
 
     public static final RegistryObject<CreativeModeTab> FRESH_ARMS_AND_ARMOR =
-            TABS.register("fresh_arms_and_armor", () ->
+            TABS.register("fresharmsandarmor", () ->
                     CreativeModeTab.builder()
                             .title(Component.translatable("creativetab.fresh_arms_and_armor"))
                             .icon(() -> TwoHandedWeapons.NETHERITE_GREATSWORD.get().getDefaultInstance())
@@ -52,22 +51,11 @@ public class ModCreativeTabs {
                                 output.accept(ShieldItems.NETHERITE_SHIELD.get());
 
                                 // -------- Barbarian Armor – Iron --------
-                                output.accept(BarbarianArmorItems.IRON_BARBARIAN_HELMET.get());
-                                output.accept(BarbarianArmorItems.IRON_BARBARIAN_CHESTPLATE.get());
-                                output.accept(BarbarianArmorItems.IRON_BARBARIAN_LEGGINGS.get());
-                                output.accept(BarbarianArmorItems.IRON_BARBARIAN_BOOTS.get());
+                                output.accept(BarbarianArmorRegistry.IRON_BARBARIAN_HELMET.get());
+                                output.accept(BarbarianArmorRegistry.IRON_BARBARIAN_CHESTPLATE.get());
+                                output.accept(BarbarianArmorRegistry.IRON_BARBARIAN_LEGGINGS.get());
+                                output.accept(BarbarianArmorRegistry.IRON_BARBARIAN_BOOTS.get());
 
-                                // -------- Barbarian Armor – Diamond --------
-                                output.accept(BarbarianArmorItems.DIAMOND_BARBARIAN_HELMET.get());
-                                output.accept(BarbarianArmorItems.DIAMOND_BARBARIAN_CHESTPLATE.get());
-                                output.accept(BarbarianArmorItems.DIAMOND_BARBARIAN_LEGGINGS.get());
-                                output.accept(BarbarianArmorItems.DIAMOND_BARBARIAN_BOOTS.get());
-
-                                // -------- Barbarian Armor – Netherite --------
-                                output.accept(BarbarianArmorItems.NETHERITE_BARBARIAN_HELMET.get());
-                                output.accept(BarbarianArmorItems.NETHERITE_BARBARIAN_CHESTPLATE.get());
-                                output.accept(BarbarianArmorItems.NETHERITE_BARBARIAN_LEGGINGS.get());
-                                output.accept(BarbarianArmorItems.NETHERITE_BARBARIAN_BOOTS.get());
                             })
                             .build()
             );

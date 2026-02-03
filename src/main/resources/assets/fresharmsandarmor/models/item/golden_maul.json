@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "fresharmsandarmor:item/golden_maul"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "scale": [1.65, 1.65, 1],
+      "rotation": [0, -90, 40],
+      "translation": [0, 8, 2]
+    },
+    "thirdperson_lefthand": {
+      "scale": [1.65, 1.65, 1],
+      "rotation": [0, 90, -40],
+      "translation": [0, 8, 0.35]
+    },
+    "firstperson_righthand": {
+      "scale": [1, 1, 1],
+      "rotation": [0, -90, 25],
+      "translation": [0, 5, 2]
+    },
+    "firstperson_lefthand": {
+      "scale": [1, 1, 1],
+      "rotation": [0, 90, -25],
+      "translation": [0, 5, 2]
+    }
+  }
+}

@@ -2,7 +2,7 @@ package com.freshsquilliam.fresharmsandarmor;
 
 import com.freshsquilliam.fresharmsandarmor.item.ModCreativeTabs;
 import com.freshsquilliam.fresharmsandarmor.item.TwoHandedWeapons;
-import com.freshsquilliam.fresharmsandarmor.item.armor.BarbarianArmorItems;
+import com.freshsquilliam.fresharmsandarmor.item.BarbarianArmorRegistry;
 import com.freshsquilliam.fresharmsandarmor.item.shield.ShieldItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -21,7 +21,7 @@ import org.slf4j.Logger;
 @Mod(FreshArmsAndArmor.MODID)
 public class FreshArmsAndArmor {
 
-    public static final String MODID = "fresh_arms_and_armor";
+    public static final String MODID = "fresharmsandarmor";
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public FreshArmsAndArmor(FMLJavaModLoadingContext context) {
@@ -31,7 +31,7 @@ public class FreshArmsAndArmor {
         ModCreativeTabs.TABS.register(modEventBus);
 
         TwoHandedWeapons.ITEMS.register(modEventBus);
-        BarbarianArmorItems.ITEMS.register(modEventBus);
+        BarbarianArmorRegistry.ITEMS.register(modEventBus);
         ShieldItems.ITEMS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);

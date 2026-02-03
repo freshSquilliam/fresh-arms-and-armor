@@ -3,7 +3,7 @@ loaderVersion="[47,)"
 license="All Rights Reserved"
 
 [[mods]]
-modId="fresh_arms_and_armor"
+modId="fresharmsandarmor"
 version="0.1.0"
 displayName="Fresh Arms & Armor"
 authors="fresh_squilliam"
@@ -11,14 +11,14 @@ description='''
 Adds class-based weapons and armor with distinct playstyles.
 '''
 
-[[dependencies.fresh_arms_and_armor]]
+[[dependencies.fresharmsandarmor]]
 modId="forge"
 mandatory=true
 versionRange="[47,)"
 ordering="NONE"
 side="BOTH"
 
-[[dependencies.fresh_arms_and_armor]]
+[[dependencies.fresharmsandarmor]]
 modId="minecraft"
 mandatory=true
 versionRange="[1.20.1,)"
