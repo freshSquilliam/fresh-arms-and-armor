@@ -16,9 +16,9 @@ public class TwoHandedWeapons {
     public static final RegistryObject<Item> WOODEN_GREATSWORD =
             ITEMS.register("wooden_greatsword", () ->
                     new SwordItem(
-                            Tiers.WOOD,
-                            9,
-                            -3.06F,
+                            Tiers.WOOD, //wood/gold=1, stone=2, iron=3, diamond=4, netherite=5
+                            9, //material + <this number> = damage
+                            -3.06F, //4 - <this number> = speed (attacks/second)
                             new Item.Properties()
                     )
             );
