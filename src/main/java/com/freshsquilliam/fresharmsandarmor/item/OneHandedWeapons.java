@@ -27,8 +27,8 @@ public class OneHandedWeapons {
             ITEMS.register("stone_spear", () ->
                     new SwordItem(
                             Tiers.STONE,
-                            9,
-                            -3F,
+                            3,
+                            -2.4F,
                             new Item.Properties()
                     )
             );
@@ -37,8 +37,8 @@ public class OneHandedWeapons {
             ITEMS.register("iron_spear", () ->
                     new SwordItem(
                             Tiers.IRON,
-                            9,
-                            -2.95F,
+                            3,
+                            -2.45F,
                             new Item.Properties()
                     )
             );
@@ -47,8 +47,8 @@ public class OneHandedWeapons {
             ITEMS.register("golden_spear", () ->
                     new SwordItem(
                             Tiers.GOLD,
-                            9,
-                            -2.95F,
+                            3,
+                            -2.4F,
                             new Item.Properties()
                     )
             );
@@ -57,8 +57,8 @@ public class OneHandedWeapons {
             ITEMS.register("diamond_spear", () ->
                     new SwordItem(
                             Tiers.DIAMOND,
-                            9,
-                            -2.91F,
+                            3,
+                            -2.4F,
                             new Item.Properties()
                     )
             );
@@ -67,8 +67,8 @@ public class OneHandedWeapons {
             ITEMS.register("netherite_spear", () ->
                     new SwordItem(
                             Tiers.NETHERITE,
-                            9,
-                            -2.87F,
+                            3,
+                            -2.4F,
                             new Item.Properties().fireResistant()
                     )
             );
@@ -77,8 +77,8 @@ public class OneHandedWeapons {
             ITEMS.register("wooden_mace", () ->
                     new SwordItem(
                             Tiers.WOOD,
-                            11,
-                            -3.22F,
+                            3,
+                            -2.4F,
                             new Item.Properties()
                     )
             );
@@ -87,8 +87,8 @@ public class OneHandedWeapons {
             ITEMS.register("stone_mace", () ->
                     new SwordItem(
                             Tiers.STONE,
-                            11,
-                            -3.08F,
+                            3,
+                            -2.4F,
                             new Item.Properties()
                     )
             );
@@ -97,8 +97,8 @@ public class OneHandedWeapons {
             ITEMS.register("iron_mace", () ->
                     new SwordItem(
                             Tiers.IRON,
-                            11,
-                            -3.03F,
+                            3,
+                            -2.4F,
                             new Item.Properties()
                     )
             );
@@ -107,8 +107,8 @@ public class OneHandedWeapons {
             ITEMS.register("golden_mace", () ->
                     new SwordItem(
                             Tiers.GOLD,
-                            11,
-                            -3.03F,
+                            3,
+                            -2.4F,
                             new Item.Properties()
                     )
             );
@@ -117,8 +117,8 @@ public class OneHandedWeapons {
             ITEMS.register("diamond_mace", () ->
                     new SwordItem(
                             Tiers.DIAMOND,
-                            11,
-                            -2.99F,
+                            3,
+                            -2.4F,
                             new Item.Properties()
                     )
             );
@@ -127,8 +127,8 @@ public class OneHandedWeapons {
             ITEMS.register("netherite_mace", () ->
                     new SwordItem(
                             Tiers.NETHERITE,
-                            11,
-                            -3.01F,
+                            3,
+                            -2.4F,
                             new Item.Properties().fireResistant()
                     )
             );
