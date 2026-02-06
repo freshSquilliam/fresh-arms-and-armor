@@ -16,7 +16,7 @@ public class ModCreativeTabs {
     public static final RegistryObject<CreativeModeTab> FRESH_ARMS_AND_ARMOR =
             TABS.register("fresharmsandarmor", () ->
                     CreativeModeTab.builder()
-                            .title(Component.translatable("creativetab.fresh_arms_and_armor"))
+                            .title(Component.translatable("creativetab.fresharmsandarmor"))
                             .icon(() -> TwoHandedWeapons.NETHERITE_GREATSWORD.get().getDefaultInstance())
                             .displayItems((parameters, output) -> {
 
@@ -56,6 +56,17 @@ public class ModCreativeTabs {
                                 output.accept(BarbarianArmorRegistry.IRON_BARBARIAN_LEGGINGS.get());
                                 output.accept(BarbarianArmorRegistry.IRON_BARBARIAN_BOOTS.get());
 
+                                // -------- Barbarian Armor – Diamond --------
+                                output.accept(BarbarianArmorRegistry.DIAMOND_BARBARIAN_HELMET.get());
+                                output.accept(BarbarianArmorRegistry.DIAMOND_BARBARIAN_CHESTPLATE.get());
+                                output.accept(BarbarianArmorRegistry.DIAMOND_BARBARIAN_LEGGINGS.get());
+                                output.accept(BarbarianArmorRegistry.DIAMOND_BARBARIAN_BOOTS.get());
+
+                                // -------- Barbarian Armor – Netherite --------
+                                output.accept(BarbarianArmorRegistry.NETHERITE_BARBARIAN_HELMET.get());
+                                output.accept(BarbarianArmorRegistry.NETHERITE_BARBARIAN_CHESTPLATE.get());
+                                output.accept(BarbarianArmorRegistry.NETHERITE_BARBARIAN_LEGGINGS.get());
+                                output.accept(BarbarianArmorRegistry.NETHERITE_BARBARIAN_BOOTS.get());
                             })
                             .build()
             );

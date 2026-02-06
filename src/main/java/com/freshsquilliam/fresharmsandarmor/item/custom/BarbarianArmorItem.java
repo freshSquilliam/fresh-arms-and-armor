@@ -18,37 +18,55 @@ import software.bernie.geckolib.core.object.PlayState;
 import java.util.function.Consumer;
 
 public class BarbarianArmorItem extends ArmorItem implements GeoItem {
-    private AnimatableInstanceCache cache = new SingletonAnimatableInstanceCache(this);
 
-    public BarbarianArmorItem(ArmorMaterial p_40386_, Type p_266831_, Properties p_40388_) {
-        super(p_40386_, p_266831_, p_40388_);
+    private final AnimatableInstanceCache cache =
+            new SingletonAnimatableInstanceCache(this);
+
+    public BarbarianArmorItem(ArmorMaterial material, Type type, Properties properties) {
+        super(material, type, properties);
     }
 
     @Override
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
         consumer.accept(new IClientItemExtensions() {
+
             private BarbarianArmorRenderer renderer;
 
             @Override
-            public @NotNull HumanoidModel<?> getHumanoidArmorModel(LivingEntity livingEntity, ItemStack itemStack, EquipmentSlot equipmentSlot, HumanoidModel<?> original) {
-
-                if (this.renderer == null)
+            public @NotNull HumanoidModel<?> getHumanoidArmorModel(
+                    LivingEntity livingEntity,
+                    ItemStack itemStack,
+                    EquipmentSlot equipmentSlot,
+                    HumanoidModel<?> original
+            ) {
+                if (this.renderer == null) {
                     this.renderer = new BarbarianArmorRenderer();
+                }
 
-                this.renderer.prepForRender(livingEntity, itemStack, equipmentSlot, original);
+                this.renderer.prepForRender(
+                        livingEntity,
+                        itemStack,
+                        equipmentSlot,
+                        original
+                );
+
                 return this.renderer;
             }
         });
     }
 
-    private PlayState predicate(AnimationState animationState) {
-        animationState.getController().setAnimation(RawAnimation.begin().then("idle", Animation.LoopType.LOOP));
+    private PlayState predicate(AnimationState<?> state) {
+        state.getController().setAnimation(
+                RawAnimation.begin().then("idle", Animation.LoopType.LOOP)
+        );
         return PlayState.CONTINUE;
     }
 
     @Override
-    public void registerControllers(AnimatableManager.ControllerRegistrar controllerRegistrar) {
-        controllerRegistrar.add(new AnimationController(this,"controller",0,this::predicate));
+    public void registerControllers(AnimatableManager.ControllerRegistrar controllers) {
+        controllers.add(
+                new AnimationController<>(this, "controller", 0, this::predicate)
+        );
     }
 
     @Override

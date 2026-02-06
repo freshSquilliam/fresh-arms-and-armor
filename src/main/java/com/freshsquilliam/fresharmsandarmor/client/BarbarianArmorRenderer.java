@@ -1,7 +1,6 @@
 package com.freshsquilliam.fresharmsandarmor.client;
 
 import com.freshsquilliam.fresharmsandarmor.item.custom.BarbarianArmorItem;
-import software.bernie.geckolib.model.GeoModel;
 import software.bernie.geckolib.renderer.GeoArmorRenderer;
 
 public class BarbarianArmorRenderer extends GeoArmorRenderer<BarbarianArmorItem> {

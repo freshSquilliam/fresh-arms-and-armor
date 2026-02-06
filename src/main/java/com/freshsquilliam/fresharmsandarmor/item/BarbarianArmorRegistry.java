@@ -13,16 +13,85 @@ public class BarbarianArmorRegistry {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, FreshArmsAndArmor.MODID);
 
-    public static final RegistryObject<Item> IRON_BARBARIAN_HELMET = ITEMS.register("iron_barbarian_helmet",
-            () -> new BarbarianArmorItem(ModArmorMaterials.IRON, ArmorItem.Type.HELMET, new Item.Properties()));
+    // ===== IRON =====
 
-    public static final RegistryObject<Item> IRON_BARBARIAN_CHESTPLATE = ITEMS.register("iron_barbarian_chestplate",
-            () -> new BarbarianArmorItem(ModArmorMaterials.IRON, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> IRON_BARBARIAN_HELMET = ITEMS.register(
+            "iron_barbarian_helmet",
+            () -> new BarbarianArmorItem(ModArmorMaterials.IRON, ArmorItem.Type.HELMET, new Item.Properties())
+    );
 
-    public static final RegistryObject<Item> IRON_BARBARIAN_LEGGINGS = ITEMS.register("iron_barbarian_leggings",
-            () -> new BarbarianArmorItem(ModArmorMaterials.IRON, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> IRON_BARBARIAN_CHESTPLATE = ITEMS.register(
+            "iron_barbarian_chestplate",
+            () -> new BarbarianArmorItem(ModArmorMaterials.IRON, ArmorItem.Type.CHESTPLATE, new Item.Properties())
+    );
 
-    public static final RegistryObject<Item> IRON_BARBARIAN_BOOTS = ITEMS.register("iron_barbarian_boots",
-            () -> new BarbarianArmorItem(ModArmorMaterials.IRON, ArmorItem.Type.BOOTS, new Item.Properties()));
+    public static final RegistryObject<Item> IRON_BARBARIAN_LEGGINGS = ITEMS.register(
+            "iron_barbarian_leggings",
+            () -> new BarbarianArmorItem(ModArmorMaterials.IRON, ArmorItem.Type.LEGGINGS, new Item.Properties())
+    );
 
+    public static final RegistryObject<Item> IRON_BARBARIAN_BOOTS = ITEMS.register(
+            "iron_barbarian_boots",
+            () -> new BarbarianArmorItem(ModArmorMaterials.IRON, ArmorItem.Type.BOOTS, new Item.Properties())
+    );
+
+    // ===== DIAMOND =====
+
+    public static final RegistryObject<Item> DIAMOND_BARBARIAN_HELMET = ITEMS.register(
+            "diamond_barbarian_helmet",
+            () -> new BarbarianArmorItem(ModArmorMaterials.DIAMOND, ArmorItem.Type.HELMET, new Item.Properties())
+    );
+
+    public static final RegistryObject<Item> DIAMOND_BARBARIAN_CHESTPLATE = ITEMS.register(
+            "diamond_barbarian_chestplate",
+            () -> new BarbarianArmorItem(ModArmorMaterials.DIAMOND, ArmorItem.Type.CHESTPLATE, new Item.Properties())
+    );
+
+    public static final RegistryObject<Item> DIAMOND_BARBARIAN_LEGGINGS = ITEMS.register(
+            "diamond_barbarian_leggings",
+            () -> new BarbarianArmorItem(ModArmorMaterials.DIAMOND, ArmorItem.Type.LEGGINGS, new Item.Properties())
+    );
+
+    public static final RegistryObject<Item> DIAMOND_BARBARIAN_BOOTS = ITEMS.register(
+            "diamond_barbarian_boots",
+            () -> new BarbarianArmorItem(ModArmorMaterials.DIAMOND, ArmorItem.Type.BOOTS, new Item.Properties())
+    );
+
+    // ===== NETHERITE =====
+
+    public static final RegistryObject<Item> NETHERITE_BARBARIAN_HELMET = ITEMS.register(
+            "netherite_barbarian_helmet",
+            () -> new BarbarianArmorItem(
+                    ModArmorMaterials.NETHERITE,
+                    ArmorItem.Type.HELMET,
+                    new Item.Properties().fireResistant()
+            )
+    );
+
+    public static final RegistryObject<Item> NETHERITE_BARBARIAN_CHESTPLATE = ITEMS.register(
+            "netherite_barbarian_chestplate",
+            () -> new BarbarianArmorItem(
+                    ModArmorMaterials.NETHERITE,
+                    ArmorItem.Type.CHESTPLATE,
+                    new Item.Properties().fireResistant()
+            )
+    );
+
+    public static final RegistryObject<Item> NETHERITE_BARBARIAN_LEGGINGS = ITEMS.register(
+            "netherite_barbarian_leggings",
+            () -> new BarbarianArmorItem(
+                    ModArmorMaterials.NETHERITE,
+                    ArmorItem.Type.LEGGINGS,
+                    new Item.Properties().fireResistant()
+            )
+    );
+
+    public static final RegistryObject<Item> NETHERITE_BARBARIAN_BOOTS = ITEMS.register(
+            "netherite_barbarian_boots",
+            () -> new BarbarianArmorItem(
+                    ModArmorMaterials.NETHERITE,
+                    ArmorItem.Type.BOOTS,
+                    new Item.Properties().fireResistant()
+            )
+    );
 }
