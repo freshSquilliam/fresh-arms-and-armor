@@ -1,0 +1,24 @@
+{
+  "values": [
+    "fresharmsandarmor:wooden_greatsword",
+    "fresharmsandarmor:stone_greatsword",
+    "fresharmsandarmor:iron_greatsword",
+    "fresharmsandarmor:golden_greatsword",
+    "fresharmsandarmor:diamond_greatsword",
+    "fresharmsandarmor:netherite_greatsword",
+
+    "fresharmsandarmor:wooden_greataxe",
+    "fresharmsandarmor:stone_greataxe",
+    "fresharmsandarmor:iron_greataxe",
+    "fresharmsandarmor:golden_greataxe",
+    "fresharmsandarmor:diamond_greataxe",
+    "fresharmsandarmor:netherite_greataxe",
+
+    "fresharmsandarmor:wooden_maul",
+    "fresharmsandarmor:stone_maul",
+    "fresharmsandarmor:iron_maul",
+    "fresharmsandarmor:golden_maul",
+    "fresharmsandarmor:diamond_maul",
+    "fresharmsandarmor:netherite_maul"
+  ]
+}

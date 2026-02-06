@@ -1,12 +1,17 @@
 package com.freshsquilliam.fresharmsandarmor.item.custom;
 
 import com.freshsquilliam.fresharmsandarmor.client.BarbarianArmorRenderer;
+import com.freshsquilliam.fresharmsandarmor.item.ModArmorMaterials;
+import net.minecraft.ChatFormatting;
 import net.minecraft.client.model.HumanoidModel;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.TooltipFlag;
+import net.minecraft.world.level.Level;
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
 import org.jetbrains.annotations.NotNull;
 import software.bernie.geckolib.animatable.GeoItem;
@@ -15,6 +20,7 @@ import software.bernie.geckolib.core.animatable.instance.SingletonAnimatableInst
 import software.bernie.geckolib.core.animation.*;
 import software.bernie.geckolib.core.object.PlayState;
 
+import java.util.List;
 import java.util.function.Consumer;
 
 public class BarbarianArmorItem extends ArmorItem implements GeoItem {
@@ -25,6 +31,8 @@ public class BarbarianArmorItem extends ArmorItem implements GeoItem {
     public BarbarianArmorItem(ArmorMaterial material, Type type, Properties properties) {
         super(material, type, properties);
     }
+
+    // ===== GeckoLib =====
 
     @Override
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
@@ -72,5 +80,41 @@ public class BarbarianArmorItem extends ArmorItem implements GeoItem {
     @Override
     public AnimatableInstanceCache getAnimatableInstanceCache() {
         return cache;
+    }
+
+    // ===== Tooltip =====
+
+    @Override
+    public void appendHoverText(
+            ItemStack stack,
+            Level level,
+            List<Component> tooltip,
+            TooltipFlag flag
+    ) {
+        float bonus = getTwoHandedBonusForMaterial(this.getMaterial());
+
+        if (bonus > 0.0F) {
+            tooltip.add(
+                    Component.literal("+" + bonus + "% Two-Handed Weapon Damage")
+                            .withStyle(ChatFormatting.RED)
+            );
+        }
+    }
+
+    private static float getTwoHandedBonusForMaterial(ArmorMaterial material) {
+
+        if (material == ModArmorMaterials.IRON) {
+            return 5.0F;
+        }
+
+        if (material == ModArmorMaterials.DIAMOND) {
+            return 7.5F;
+        }
+
+        if (material == ModArmorMaterials.NETHERITE) {
+            return 10.0F;
+        }
+
+        return 0.0F;
     }
 }

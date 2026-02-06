@@ -1,5 +1,6 @@
 package com.freshsquilliam.fresharmsandarmor;
 
+import com.freshsquilliam.fresharmsandarmor.combat.BarbarianArmorHandler;
 import com.freshsquilliam.fresharmsandarmor.item.ModCreativeTabs;
 import com.freshsquilliam.fresharmsandarmor.item.OneHandedWeapons;
 import com.freshsquilliam.fresharmsandarmor.item.TwoHandedWeapons;
@@ -36,7 +37,7 @@ public class FreshArmsAndArmor {
         BarbarianArmorRegistry.ITEMS.register(modEventBus);
         ShieldItems.ITEMS.register(modEventBus);
 
-
+        MinecraftForge.EVENT_BUS.register(BarbarianArmorHandler.class);
         MinecraftForge.EVENT_BUS.register(this);
 
         context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
