@@ -1,11 +1,9 @@
 package com.freshsquilliam.fresharmsandarmor;
 
 import com.freshsquilliam.fresharmsandarmor.combat.BarbarianArmorHandler;
-import com.freshsquilliam.fresharmsandarmor.item.ModCreativeTabs;
-import com.freshsquilliam.fresharmsandarmor.item.OneHandedWeapons;
-import com.freshsquilliam.fresharmsandarmor.item.TwoHandedWeapons;
-import com.freshsquilliam.fresharmsandarmor.item.BarbarianArmorRegistry;
+import com.freshsquilliam.fresharmsandarmor.item.*;
 import com.freshsquilliam.fresharmsandarmor.item.shield.ShieldItems;
+import com.freshsquilliam.fresharmsandarmor.loot.ModLootModifiers;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
@@ -32,10 +30,13 @@ public class FreshArmsAndArmor {
         modEventBus.addListener(this::commonSetup);
         ModCreativeTabs.TABS.register(modEventBus);
 
+        ModLootModifiers.LOOT_MODIFIERS.register(modEventBus);
+
         TwoHandedWeapons.ITEMS.register(modEventBus);
         OneHandedWeapons.ITEMS.register(modEventBus);
         BarbarianArmorRegistry.ITEMS.register(modEventBus);
         ShieldItems.ITEMS.register(modEventBus);
+        ModItems.ITEMS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(BarbarianArmorHandler.class);
         MinecraftForge.EVENT_BUS.register(this);

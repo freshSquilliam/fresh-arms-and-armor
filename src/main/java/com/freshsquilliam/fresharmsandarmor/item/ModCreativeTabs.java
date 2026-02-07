@@ -20,6 +20,8 @@ public class ModCreativeTabs {
                             .icon(() -> TwoHandedWeapons.NETHERITE_GREATSWORD.get().getDefaultInstance())
                             .displayItems((parameters, output) -> {
 
+                                output.accept(ModItems.WAR_SIGIL.get());
+
                                 // -------- Greatswords --------
                                 output.accept(TwoHandedWeapons.WOODEN_GREATSWORD.get());
                                 output.accept(TwoHandedWeapons.STONE_GREATSWORD.get());
