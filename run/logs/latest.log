@@ -1,78 +1,78 @@
-[06Feb2026 18:07:58.280] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\willi\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.15, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
-[06Feb2026 18:07:58.288] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[06Feb2026 18:07:58.424] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
-[06Feb2026 18:07:58.497] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
-[06Feb2026 18:07:58.627] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
-[06Feb2026 18:07:58.721] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/willi/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[06Feb2026 18:07:58.752] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4080/PCIe/SSE2 GL version 4.6.0 NVIDIA 581.15, NVIDIA Corporation
-[06Feb2026 18:07:58.934] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\willi\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.15\1836c8e1ded76289dc139f501ed1ac21a538c020\javafmllanguage-1.20.1-47.4.15.jar is missing mods.toml file
-[06Feb2026 18:07:58.937] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\willi\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.15\fe3f9c4e82f1278f42ae0355aefa17de2eb27571\lowcodelanguage-1.20.1-47.4.15.jar is missing mods.toml file
-[06Feb2026 18:07:58.939] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\willi\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.15\86c819d356825d7878f9d1d2dc63c0fe43bf6073\mclanguage-1.20.1-47.4.15.jar is missing mods.toml file
-[06Feb2026 18:07:58.941] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\willi\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.15\19aa2647b4e4f5188ec96eb96657b028af852cef\fmlcore-1.20.1-47.4.15.jar is missing mods.toml file
-[06Feb2026 18:07:59.050] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[06Feb2026 18:08:00.004] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[06Feb2026 18:08:00.006] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\willi\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
-[06Feb2026 18:08:00.273] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using D:\Minecraft Modding\My Mod\forge-1.20.1-47.4.15-mdk\build\createSrgToMcp\output.srg
-[06Feb2026 18:08:02.794] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 101 milliseconds
-[06Feb2026 18:08:04.032] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/willi/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.15_mapped_official_1.20.1/forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[06Feb2026 18:08:04.032] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/willi/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.15_mapped_official_1.20.1/forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[06Feb2026 18:08:04.049] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[06Feb2026 18:08:04.053] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[06Feb2026 18:08:04.107] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[06Feb2026 18:08:04.327] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.15, for MC 1.20.1 with MCP 20230612.114412
-[06Feb2026 18:08:04.333] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.15 Initialized
-[06Feb2026 18:08:05.012] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [fresh_arms_and_armor]
-[06Feb2026 18:08:05.221] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[06Feb2026 18:08:05.274] [Worker-Main-4/INFO] [com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor/]: Fresh Arms & Armor loaded
-[06Feb2026 18:08:05.402] [Worker-Main-6/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
-[06Feb2026 18:08:05.414] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[06Feb2026 18:08:05.496] [Worker-Main-4/INFO] [com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor/]: Client setup complete
-[06Feb2026 18:08:05.497] [Worker-Main-4/INFO] [com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor/]: Player name: Dev
-[06Feb2026 18:08:05.808] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.4.15 Target: 47.4.16
-[06Feb2026 18:08:05.906] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:wooden_spear#inventory' referenced from: fresharmsandarmor:wooden_spear#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/wooden_spear.json
-[06Feb2026 18:08:05.907] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:stone_spear#inventory' referenced from: fresharmsandarmor:stone_spear#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/stone_spear.json
-[06Feb2026 18:08:05.907] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:iron_spear#inventory' referenced from: fresharmsandarmor:iron_spear#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/iron_spear.json
-[06Feb2026 18:08:05.907] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:golden_spear#inventory' referenced from: fresharmsandarmor:golden_spear#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/golden_spear.json
-[06Feb2026 18:08:05.907] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:diamond_spear#inventory' referenced from: fresharmsandarmor:diamond_spear#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/diamond_spear.json
-[06Feb2026 18:08:05.907] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:netherite_spear#inventory' referenced from: fresharmsandarmor:netherite_spear#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/netherite_spear.json
-[06Feb2026 18:08:05.907] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:wooden_mace#inventory' referenced from: fresharmsandarmor:wooden_mace#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/wooden_mace.json
-[06Feb2026 18:08:05.907] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:stone_mace#inventory' referenced from: fresharmsandarmor:stone_mace#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/stone_mace.json
-[06Feb2026 18:08:05.907] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:iron_mace#inventory' referenced from: fresharmsandarmor:iron_mace#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/iron_mace.json
-[06Feb2026 18:08:05.907] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:golden_mace#inventory' referenced from: fresharmsandarmor:golden_mace#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/golden_mace.json
-[06Feb2026 18:08:05.907] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:diamond_mace#inventory' referenced from: fresharmsandarmor:diamond_mace#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/diamond_mace.json
-[06Feb2026 18:08:05.907] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:netherite_mace#inventory' referenced from: fresharmsandarmor:netherite_mace#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/netherite_mace.json
-[06Feb2026 18:08:05.907] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:wooden_shield#inventory' referenced from: fresharmsandarmor:wooden_shield#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/wooden_shield.json
-[06Feb2026 18:08:05.907] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:iron_shield#inventory' referenced from: fresharmsandarmor:iron_shield#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/iron_shield.json
-[06Feb2026 18:08:05.907] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:diamond_shield#inventory' referenced from: fresharmsandarmor:diamond_shield#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/diamond_shield.json
-[06Feb2026 18:08:05.907] [Worker-Main-3/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:netherite_shield#inventory' referenced from: fresharmsandarmor:netherite_shield#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/netherite_shield.json
-[06Feb2026 18:08:07.426] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[06Feb2026 18:08:07.426] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[06Feb2026 18:08:07.449] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Yeti Classic)
-[06Feb2026 18:08:07.449] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[06Feb2026 18:08:07.527] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[06Feb2026 18:08:07.533] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[06Feb2026 18:08:07.533] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[06Feb2026 18:08:07.533] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[06Feb2026 18:08:07.534] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[06Feb2026 18:08:07.536] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[06Feb2026 18:08:07.537] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[06Feb2026 18:08:07.537] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[06Feb2026 18:08:07.537] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[06Feb2026 18:08:07.619] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[06Feb2026 18:08:07.657] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[06Feb2026 18:08:07.659] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[06Feb2026 18:08:07.659] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[06Feb2026 18:08:07.823] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
-[06Feb2026 18:08:10.728] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
-[06Feb2026 18:08:11.443] [Worker-Main-17/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:swords as it is missing following references: fresh_arms_and_armor:wooden_greatsword (from main), 
+[06Feb2026 21:24:18.358] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, C:\Users\willi\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.15, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[06Feb2026 21:24:18.365] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.17 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[06Feb2026 21:24:18.492] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[06Feb2026 21:24:18.566] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[06Feb2026 21:24:18.719] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.6 got version 4.6
+[06Feb2026 21:24:18.794] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/willi/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[06Feb2026 21:24:18.837] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: NVIDIA GeForce RTX 4080/PCIe/SSE2 GL version 4.6.0 NVIDIA 581.15, NVIDIA Corporation
+[06Feb2026 21:24:19.081] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\willi\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.15\1836c8e1ded76289dc139f501ed1ac21a538c020\javafmllanguage-1.20.1-47.4.15.jar is missing mods.toml file
+[06Feb2026 21:24:19.085] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\willi\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.15\fe3f9c4e82f1278f42ae0355aefa17de2eb27571\lowcodelanguage-1.20.1-47.4.15.jar is missing mods.toml file
+[06Feb2026 21:24:19.089] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\willi\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.15\86c819d356825d7878f9d1d2dc63c0fe43bf6073\mclanguage-1.20.1-47.4.15.jar is missing mods.toml file
+[06Feb2026 21:24:19.092] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\willi\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.15\19aa2647b4e4f5188ec96eb96657b028af852cef\fmlcore-1.20.1-47.4.15.jar is missing mods.toml file
+[06Feb2026 21:24:19.220] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[06Feb2026 21:24:20.296] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[06Feb2026 21:24:20.297] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\willi\.gradle\caches\forge_gradle\assets, --assetIndex, 5]
+[06Feb2026 21:24:20.514] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using D:\Minecraft Modding\My Mod\forge-1.20.1-47.4.15-mdk\build\createSrgToMcp\output.srg
+[06Feb2026 21:24:23.310] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 81 milliseconds
+[06Feb2026 21:24:24.653] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/willi/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.15_mapped_official_1.20.1/forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[06Feb2026 21:24:24.653] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/willi/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.15_mapped_official_1.20.1/forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[06Feb2026 21:24:24.675] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06Feb2026 21:24:24.681] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[06Feb2026 21:24:24.758] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[06Feb2026 21:24:24.976] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.15, for MC 1.20.1 with MCP 20230612.114412
+[06Feb2026 21:24:24.980] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.15 Initialized
+[06Feb2026 21:24:25.718] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [fresh_arms_and_armor]
+[06Feb2026 21:24:25.907] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[06Feb2026 21:24:25.982] [Worker-Main-6/INFO] [com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor/]: Fresh Arms & Armor loaded
+[06Feb2026 21:24:26.103] [Worker-Main-10/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[06Feb2026 21:24:26.123] [Worker-Main-3/INFO] [com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor/]: Client setup complete
+[06Feb2026 21:24:26.124] [Worker-Main-3/INFO] [com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor/]: Player name: Dev
+[06Feb2026 21:24:26.136] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[06Feb2026 21:24:26.545] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.4.15 Target: 47.4.16
+[06Feb2026 21:24:26.737] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:wooden_spear#inventory' referenced from: fresharmsandarmor:wooden_spear#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/wooden_spear.json
+[06Feb2026 21:24:26.738] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:stone_spear#inventory' referenced from: fresharmsandarmor:stone_spear#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/stone_spear.json
+[06Feb2026 21:24:26.738] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:iron_spear#inventory' referenced from: fresharmsandarmor:iron_spear#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/iron_spear.json
+[06Feb2026 21:24:26.738] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:golden_spear#inventory' referenced from: fresharmsandarmor:golden_spear#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/golden_spear.json
+[06Feb2026 21:24:26.738] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:diamond_spear#inventory' referenced from: fresharmsandarmor:diamond_spear#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/diamond_spear.json
+[06Feb2026 21:24:26.738] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:netherite_spear#inventory' referenced from: fresharmsandarmor:netherite_spear#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/netherite_spear.json
+[06Feb2026 21:24:26.738] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:wooden_mace#inventory' referenced from: fresharmsandarmor:wooden_mace#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/wooden_mace.json
+[06Feb2026 21:24:26.738] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:stone_mace#inventory' referenced from: fresharmsandarmor:stone_mace#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/stone_mace.json
+[06Feb2026 21:24:26.739] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:iron_mace#inventory' referenced from: fresharmsandarmor:iron_mace#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/iron_mace.json
+[06Feb2026 21:24:26.739] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:golden_mace#inventory' referenced from: fresharmsandarmor:golden_mace#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/golden_mace.json
+[06Feb2026 21:24:26.739] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:diamond_mace#inventory' referenced from: fresharmsandarmor:diamond_mace#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/diamond_mace.json
+[06Feb2026 21:24:26.739] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:netherite_mace#inventory' referenced from: fresharmsandarmor:netherite_mace#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/netherite_mace.json
+[06Feb2026 21:24:26.739] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:wooden_shield#inventory' referenced from: fresharmsandarmor:wooden_shield#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/wooden_shield.json
+[06Feb2026 21:24:26.739] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:iron_shield#inventory' referenced from: fresharmsandarmor:iron_shield#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/iron_shield.json
+[06Feb2026 21:24:26.739] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:diamond_shield#inventory' referenced from: fresharmsandarmor:diamond_shield#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/diamond_shield.json
+[06Feb2026 21:24:26.739] [Worker-Main-2/WARN] [net.minecraft.client.resources.model.ModelBakery/]: Unable to load model: 'fresharmsandarmor:netherite_shield#inventory' referenced from: fresharmsandarmor:netherite_shield#inventory: java.io.FileNotFoundException: fresharmsandarmor:models/item/netherite_shield.json
+[06Feb2026 21:24:27.863] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[06Feb2026 21:24:27.864] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[06Feb2026 21:24:27.894] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Speakers (Yeti Classic)
+[06Feb2026 21:24:27.894] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[06Feb2026 21:24:27.978] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[06Feb2026 21:24:27.985] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[06Feb2026 21:24:27.986] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[06Feb2026 21:24:27.987] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[06Feb2026 21:24:27.987] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[06Feb2026 21:24:27.989] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[06Feb2026 21:24:27.994] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[06Feb2026 21:24:27.994] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[06Feb2026 21:24:27.995] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[06Feb2026 21:24:28.069] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[06Feb2026 21:24:28.103] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[06Feb2026 21:24:28.104] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[06Feb2026 21:24:28.104] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[06Feb2026 21:24:28.251] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[06Feb2026 21:24:34.384] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[06Feb2026 21:24:35.302] [Worker-Main-8/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:swords as it is missing following references: fresh_arms_and_armor:wooden_greatsword (from main), 
 	fresh_arms_and_armor:stone_greatsword (from main), 
 	fresh_arms_and_armor:iron_greatsword (from main), 
 	fresh_arms_and_armor:diamond_greatsword (from main), 
 	fresh_arms_and_armor:netherite_greatsword (from main)
-[06Feb2026 18:08:11.444] [Worker-Main-17/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:tools as it is missing following references: #minecraft:swords (from vanilla)
-[06Feb2026 18:08:11.444] [Worker-Main-17/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:breaks_decorated_pots as it is missing following references: #minecraft:tools (from vanilla)
-[06Feb2026 18:08:11.445] [Worker-Main-17/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:tools as it is missing following references: #minecraft:swords (from )
-[06Feb2026 18:08:11.687] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:diamond_greatsword
+[06Feb2026 21:24:35.303] [Worker-Main-8/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:tools as it is missing following references: #minecraft:swords (from vanilla)
+[06Feb2026 21:24:35.303] [Worker-Main-8/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag minecraft:breaks_decorated_pots as it is missing following references: #minecraft:tools (from vanilla)
+[06Feb2026 21:24:35.306] [Worker-Main-8/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag forge:tools as it is missing following references: #minecraft:swords (from )
+[06Feb2026 21:24:35.579] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:diamond_greatsword
 com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:diamond_greatsword'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
@@ -130,7 +130,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:diamond_
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.718] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:iron_maul
+[06Feb2026 21:24:35.612] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:iron_maul
 com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:iron_maul'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
@@ -188,7 +188,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:iron_mau
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.719] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:wooden_greatsword
+[06Feb2026 21:24:35.613] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:wooden_greatsword
 com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:wooden_greatsword'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
@@ -246,7 +246,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:wooden_g
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.720] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:netherite_greatsword
+[06Feb2026 21:24:35.615] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:netherite_greatsword
 com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:diamond_greatsword'
 	at net.minecraft.world.item.crafting.ShapedRecipe.lambda$itemFromJson$2(ShapedRecipe.java:292) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -309,7 +309,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:diamond_
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.723] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:golden_greataxe
+[06Feb2026 21:24:35.628] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:golden_greataxe
 com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:golden_greataxe'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
@@ -367,7 +367,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:golden_g
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.727] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:wooden_greataxe
+[06Feb2026 21:24:35.633] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:wooden_greataxe
 com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:wooden_greataxe'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
@@ -425,7 +425,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:wooden_g
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.728] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:golden_greatsword
+[06Feb2026 21:24:35.647] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:golden_greatsword
 com.google.gson.JsonSyntaxException: Invalid pattern: too many columns, 3 is maximum
 	at net.minecraft.world.item.crafting.ShapedRecipe.patternFromJson(ShapedRecipe.java:252) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.fromJson(ShapedRecipe.java:307) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
@@ -481,7 +481,7 @@ com.google.gson.JsonSyntaxException: Invalid pattern: too many columns, 3 is max
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.730] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:diamond_greataxe
+[06Feb2026 21:24:35.664] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:diamond_greataxe
 com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:diamond_greataxe'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
@@ -539,7 +539,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:diamond_
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.731] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:netherite_maul
+[06Feb2026 21:24:35.690] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:netherite_maul
 com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:diamond_maul'
 	at net.minecraft.world.item.crafting.ShapedRecipe.lambda$itemFromJson$2(ShapedRecipe.java:292) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -602,7 +602,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:diamond_
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.732] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:iron_greataxe
+[06Feb2026 21:24:35.692] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:iron_greataxe
 com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:iron_greataxe'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
@@ -660,7 +660,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:iron_gre
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.734] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:stone_greataxe
+[06Feb2026 21:24:35.704] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:stone_greataxe
 com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:stone_greataxe'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
@@ -718,7 +718,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:stone_gr
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.735] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:netherite_greataxe
+[06Feb2026 21:24:35.705] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:netherite_greataxe
 com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:diamond_greataxe'
 	at net.minecraft.world.item.crafting.ShapedRecipe.lambda$itemFromJson$2(ShapedRecipe.java:292) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -781,7 +781,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:diamond_
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.736] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:diamond_maul
+[06Feb2026 21:24:35.717] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:diamond_maul
 com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:diamond_maul'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
@@ -839,7 +839,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:diamond_
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.736] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:golden_maul
+[06Feb2026 21:24:35.725] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:golden_maul
 com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:golden_maul'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
@@ -897,7 +897,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:golden_m
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.740] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:stone_greatsword
+[06Feb2026 21:24:35.729] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:stone_greatsword
 com.google.gson.JsonSyntaxException: Invalid pattern: too many columns, 3 is maximum
 	at net.minecraft.world.item.crafting.ShapedRecipe.patternFromJson(ShapedRecipe.java:252) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.fromJson(ShapedRecipe.java:307) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
@@ -953,7 +953,7 @@ com.google.gson.JsonSyntaxException: Invalid pattern: too many columns, 3 is max
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.741] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:stone_maul
+[06Feb2026 21:24:35.731] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:stone_maul
 com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:stone_maul'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
@@ -1011,7 +1011,7 @@ com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:stone_ma
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.742] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:iron_greatsword
+[06Feb2026 21:24:35.743] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:iron_greatsword
 com.google.gson.JsonSyntaxException: Invalid pattern: too many columns, 3 is maximum
 	at net.minecraft.world.item.crafting.ShapedRecipe.patternFromJson(ShapedRecipe.java:252) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at net.minecraft.world.item.crafting.ShapedRecipe$Serializer.fromJson(ShapedRecipe.java:307) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
@@ -1067,7 +1067,7 @@ com.google.gson.JsonSyntaxException: Invalid pattern: too many columns, 3 is max
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.743] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:wooden_maul
+[06Feb2026 21:24:35.747] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe fresharmsandarmor:wooden_maul
 com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:wooden_greataxe'
 	at net.minecraftforge.common.crafting.CraftingHelper.getItem(CraftingHelper.java:160) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
 	at net.minecraftforge.common.crafting.CraftingHelper.getItemStack(CraftingHelper.java:186) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?]
@@ -1125,36 +1125,50 @@ com.google.gson.JsonSyntaxException: Unknown item 'fresh_arms_and_armor:wooden_g
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Feb2026 18:08:11.745] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[06Feb2026 18:08:11.805] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
-[06Feb2026 18:08:12.028] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
-[06Feb2026 18:08:12.029] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[06Feb2026 18:08:12.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[06Feb2026 18:08:13.188] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Feb2026 18:08:13.188] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Feb2026 18:08:13.243] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Feb2026 18:08:13.738] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
-[06Feb2026 18:08:13.802] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[06Feb2026 18:08:13.802] [Server thread/INFO] [com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor/]: Server starting
-[06Feb2026 18:08:13.809] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1578 ms
-[06Feb2026 18:08:13.887] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[06Feb2026 18:08:13.888] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[06Feb2026 18:08:13.963] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[06Feb2026 18:08:14.365] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[06Feb2026 18:08:14.411] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:c77ad6dd] logged in with entity id 86 at (-27.2057241587442, -60.0, 8.382245620123884)
-[06Feb2026 18:08:14.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[06Feb2026 18:08:14.860] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 186 advancements
-[06Feb2026 18:08:46.002] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[06Feb2026 18:08:46.008] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[06Feb2026 18:08:46.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[06Feb2026 18:08:46.018] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[06Feb2026 18:08:46.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[06Feb2026 18:08:46.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[06Feb2026 18:08:46.054] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[06Feb2026 18:08:46.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06Feb2026 18:08:46.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06Feb2026 18:08:46.461] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06Feb2026 18:08:46.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
-[06Feb2026 18:08:46.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06Feb2026 18:08:46.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06Feb2026 18:08:46.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06Feb2026 21:24:35.749] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[06Feb2026 21:24:35.812] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[06Feb2026 21:24:36.049] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[06Feb2026 21:24:36.050] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[06Feb2026 21:24:36.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[06Feb2026 21:24:37.294] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Feb2026 21:24:37.294] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Feb2026 21:24:37.294] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Feb2026 21:24:37.783] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[06Feb2026 21:24:37.825] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[06Feb2026 21:24:37.826] [Server thread/INFO] [com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor/]: Server starting
+[06Feb2026 21:24:37.836] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1557 ms
+[06Feb2026 21:24:37.906] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[06Feb2026 21:24:37.907] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[06Feb2026 21:24:37.985] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[06Feb2026 21:24:38.384] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[06Feb2026 21:24:38.423] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:63d20e83] logged in with entity id 88 at (-9.454937945622003, -60.0, 2.587992568516737)
+[06Feb2026 21:24:38.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[06Feb2026 21:24:38.893] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 186 advancements
+[06Feb2026 21:24:40.177] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[06Feb2026 21:24:40.188] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[06Feb2026 21:24:40.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[06Feb2026 21:24:40.246] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[06Feb2026 21:24:43.277] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[06Feb2026 21:24:43.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[06Feb2026 21:24:43.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[06Feb2026 21:24:43.289] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[06Feb2026 21:25:47.015] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Survival Mode]
+[06Feb2026 21:25:47.024] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Survival Mode
+[06Feb2026 21:26:44.679] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[06Feb2026 21:26:44.682] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[06Feb2026 21:26:44.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[06Feb2026 21:26:44.684] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[06Feb2026 21:26:45.628] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[06Feb2026 21:26:45.680] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[06Feb2026 21:26:45.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[06Feb2026 21:26:45.684] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[06Feb2026 21:26:45.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[06Feb2026 21:26:45.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[06Feb2026 21:26:45.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[06Feb2026 21:26:45.947] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[06Feb2026 21:26:46.038] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[06Feb2026 21:26:46.039] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[06Feb2026 21:26:46.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
+[06Feb2026 21:26:46.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06Feb2026 21:26:46.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06Feb2026 21:26:46.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
