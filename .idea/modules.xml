@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge-1.20.1-47.4.15-mdk.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge-1.20.1-47.4.15-mdk.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge-1.20.1-47.4.15-mdk.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge-1.20.1-47.4.15-mdk.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fresh-arms-and-armor.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fresh-arms-and-armor.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fresh-arms-and-armor.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fresh-arms-and-armor.test.iml" />
     </modules>
   </component>
 </project>
