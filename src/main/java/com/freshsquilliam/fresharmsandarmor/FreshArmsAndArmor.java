@@ -4,6 +4,7 @@ import com.freshsquilliam.fresharmsandarmor.combat.BarbarianArmorHandler;
 import com.freshsquilliam.fresharmsandarmor.item.*;
 import com.freshsquilliam.fresharmsandarmor.item.shield.ShieldItems;
 import com.freshsquilliam.fresharmsandarmor.loot.ModLootModifiers;
+import com.freshsquilliam.fresharmsandarmor.loot.ModLootModifiers;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
@@ -11,6 +12,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -24,13 +26,13 @@ public class FreshArmsAndArmor {
     public static final String MODID = "fresharmsandarmor";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public FreshArmsAndArmor(FMLJavaModLoadingContext context) {
-        IEventBus modEventBus = context.getModEventBus();
+    public FreshArmsAndArmor() {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         modEventBus.addListener(this::commonSetup);
         ModCreativeTabs.TABS.register(modEventBus);
 
-        ModLootModifiers.LOOT_MODIFIERS.register(modEventBus);
+        ModLootModifiers.register(modEventBus);
 
         TwoHandedWeapons.ITEMS.register(modEventBus);
         OneHandedWeapons.ITEMS.register(modEventBus);
@@ -41,7 +43,7 @@ public class FreshArmsAndArmor {
         MinecraftForge.EVENT_BUS.register(BarbarianArmorHandler.class);
         MinecraftForge.EVENT_BUS.register(this);
 
-        context.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
@@ -53,7 +55,11 @@ public class FreshArmsAndArmor {
         LOGGER.info("Server starting");
     }
 
-    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+    @Mod.EventBusSubscriber(
+            modid = MODID,
+            bus = Mod.EventBusSubscriber.Bus.MOD,
+            value = Dist.CLIENT
+    )
     public static class ClientModEvents {
 
         @SubscribeEvent
