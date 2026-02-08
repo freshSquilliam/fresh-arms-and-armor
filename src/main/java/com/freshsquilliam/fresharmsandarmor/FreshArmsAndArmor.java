@@ -2,8 +2,6 @@ package com.freshsquilliam.fresharmsandarmor;
 
 import com.freshsquilliam.fresharmsandarmor.combat.BarbarianArmorHandler;
 import com.freshsquilliam.fresharmsandarmor.item.*;
-import com.freshsquilliam.fresharmsandarmor.item.shield.ShieldItems;
-import com.freshsquilliam.fresharmsandarmor.loot.ModLootModifiers;
 import com.freshsquilliam.fresharmsandarmor.loot.ModLootModifiers;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
@@ -37,7 +35,6 @@ public class FreshArmsAndArmor {
         TwoHandedWeapons.ITEMS.register(modEventBus);
         OneHandedWeapons.ITEMS.register(modEventBus);
         BarbarianArmorRegistry.ITEMS.register(modEventBus);
-        ShieldItems.ITEMS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(BarbarianArmorHandler.class);
@@ -50,22 +47,14 @@ public class FreshArmsAndArmor {
         LOGGER.info("Fresh Arms & Armor loaded");
     }
 
-    @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event) {
-        LOGGER.info("Server starting");
-    }
-
-    @Mod.EventBusSubscriber(
-            modid = MODID,
-            bus = Mod.EventBusSubscriber.Bus.MOD,
-            value = Dist.CLIENT
-    )
+    @Mod.EventBusSubscriber(modid = MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
-
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-            LOGGER.info("Client setup complete");
-            LOGGER.info("Player name: {}", Minecraft.getInstance().getUser().getName());
+            event.enqueueWork(() -> {
+                ModItemProperties.addCustomItemProperties();
+
+            });
         }
     }
 }

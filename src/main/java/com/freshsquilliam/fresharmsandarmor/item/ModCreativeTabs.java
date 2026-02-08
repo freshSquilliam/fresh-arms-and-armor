@@ -1,7 +1,7 @@
 package com.freshsquilliam.fresharmsandarmor.item;
 
 import com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor;
-import com.freshsquilliam.fresharmsandarmor.item.shield.ShieldItems;
+import com.freshsquilliam.fresharmsandarmor.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -47,10 +47,8 @@ public class ModCreativeTabs {
                                 output.accept(TwoHandedWeapons.NETHERITE_MAUL.get());
 
                                 // -------- Shields --------
-                                output.accept(ShieldItems.WOODEN_SHIELD.get());
-                                output.accept(ShieldItems.IRON_SHIELD.get());
-                                output.accept(ShieldItems.DIAMOND_SHIELD.get());
-                                output.accept(ShieldItems.NETHERITE_SHIELD.get());
+                                output.accept(ModItems.WOODEN_SHIELD.get());
+
 
                                 // -------- Barbarian Armor – Iron --------
                                 output.accept(BarbarianArmorRegistry.IRON_BARBARIAN_HELMET.get());
