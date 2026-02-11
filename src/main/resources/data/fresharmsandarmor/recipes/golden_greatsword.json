@@ -3,7 +3,7 @@
   "pattern": [
     " G ",
     " G ",
-    "GSG "
+    "GSG"
   ],
   "key": {
     "G": {
@@ -14,6 +14,6 @@
     }
   },
   "result": {
-    "item": "fresh_arms_and_armor:golden_greatsword"
+    "item": "fresharmsandarmor:golden_greatsword"
   }
 }

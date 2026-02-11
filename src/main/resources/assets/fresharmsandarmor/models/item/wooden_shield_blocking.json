@@ -1,6 +1,6 @@
 {
+	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
-    "texture_size": [32, 32],
 	"textures": {
 		"0": "fresharmsandarmor:item/wooden_shield",
 		"particle": "fresharmsandarmor:item/wooden_shield"
@@ -46,9 +46,9 @@
 			}
 		},
 		{
-			"from": [7.1, 6.9, 5.8],
-			"to": [7.85, 9.95, 6.55],
-			"rotation": {"angle": 90, "axis": "x", "origin": [8.5, 6.9, 5.8]},
+			"from": [7.1, 6.15, 5.8],
+			"to": [7.85, 6.95, 9.05],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.5, 6.9, 6.05]},
 			"faces": {
 				"north": {"uv": [7, 2, 8, 5], "texture": "#0"},
 				"east": {"uv": [7, 5, 8, 8], "texture": "#0"},
@@ -59,22 +59,22 @@
 			}
 		},
 		{
-			"from": [7.1, 6.5, 4.7],
-			"to": [7.85, 7.75, 5.45],
-			"rotation": {"angle": 67.5, "axis": "x", "origin": [8.5, 6.5, 4.7]},
+			"from": [7.1, 5.55, 8.45],
+			"to": [7.85, 6.3, 10.2],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8.5, 5.55, 10.2]},
 			"faces": {
-				"north": {"uv": [9, 5, 10, 6.5], "texture": "#0"},
-				"east": {"uv": [10, 5, 11, 6.5], "texture": "#0"},
-				"south": {"uv": [10, 7, 11, 8.5], "texture": "#0"},
-				"west": {"uv": [10, 9, 11, 10.5], "texture": "#0"},
-				"up": {"uv": [11, 12, 10, 11], "texture": "#0"},
-				"down": {"uv": [12, 10, 11, 11], "texture": "#0"}
+				"north": {"uv": [0, 11, 1, 12.5], "texture": "#0"},
+				"east": {"uv": [11, 0, 12, 1.5], "texture": "#0"},
+				"south": {"uv": [1, 11, 2, 12.5], "texture": "#0"},
+				"west": {"uv": [2, 11, 3, 12.5], "texture": "#0"},
+				"up": {"uv": [12, 12, 11, 11], "texture": "#0"},
+				"down": {"uv": [13, 0, 12, 1], "texture": "#0"}
 			}
 		},
 		{
-			"from": [7.1, 5.8, 9.7],
-			"to": [7.85, 7.05, 10.45],
-			"rotation": {"angle": -67.5, "axis": "x", "origin": [8.5, 5.8, 9.7]},
+			"from": [7.1, 6.3, 4.7],
+			"to": [7.85, 7.05, 6.2],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8.5, 6.3, 6.45]},
 			"faces": {
 				"north": {"uv": [0, 11, 1, 12.5], "texture": "#0"},
 				"east": {"uv": [11, 0, 12, 1.5], "texture": "#0"},
@@ -202,9 +202,9 @@
 			}
 		},
 		{
-			"from": [9.5, 5, 7.2],
-			"to": [10, 7.4, 7.7],
-			"rotation": {"angle": 90, "axis": "z", "origin": [10, 5, 7.2]},
+			"from": [7.5, 4.5, 7.2],
+			"to": [10, 4.9, 7.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10, 4.5, 7.2]},
 			"faces": {
 				"north": {"uv": [13, 7, 13.5, 8.5], "texture": "#0"},
 				"east": {"uv": [8, 13, 8.5, 14.5], "texture": "#0"},
@@ -215,9 +215,9 @@
 			}
 		},
 		{
-			"from": [9.5, 3, 7.2],
-			"to": [10, 5.4, 7.7],
-			"rotation": {"angle": 90, "axis": "z", "origin": [10, 3, 7.2]},
+			"from": [7.5, 3, 7.2],
+			"to": [10, 3.4, 7.7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [10, 3, 7.2]},
 			"faces": {
 				"north": {"uv": [10, 13, 10.5, 14.5], "texture": "#0"},
 				"east": {"uv": [11, 13, 11.5, 14.5], "texture": "#0"},
@@ -230,31 +230,32 @@
 	],
 	"display": {
 		"thirdperson_righthand": {
-			"rotation": [-122, -90, -172],
-			"translation": [-1.5, 7, 8.75],
-			"scale": [1, 2.66211, 2.36133]
+			"rotation": [-135, -67.5, -180],
+			"translation": [0, 7.5, 7.25],
+			"scale": [1, 2.5, 2.5]
 		},
 		"thirdperson_lefthand": {
-			"translation": [3, 9, 4],
-			"scale": [1, 2.66211, 2.36133]
+			"rotation": [45, 67.5, 0],
+			"translation": [1.25, 7.5, 7.25],
+			"scale": [1, 2.5, 2.5]
 		},
 		"firstperson_righthand": {
-			"rotation": [-180, -16, -180],
-			"translation": [-2.75, 11.25, 3.25],
-			"scale": [1, 2.62891, 1.94141]
+			"rotation": [-90, -98, -90],
+			"translation": [-6, 11, 0],
+			"scale": [1, 2, 2]
 		},
 		"firstperson_lefthand": {
-			"rotation": [0, 25, 0],
-			"translation": [0.5, 11, 2.5],
-			"scale": [1, 2.62891, 1.94141]
+			"rotation": [-90, 82, 90],
+			"translation": [-4, 11, 0],
+			"scale": [1, 2, 2]
 		},
 		"ground": {
 			"translation": [0, 4.75, 0],
 			"scale": [1, 1.19922, 1]
 		},
 		"gui": {
-			"rotation": [-140.23, 51.7, 174.05],
-			"translation": [0.5, 6.25, 0],
+			"rotation": [0, 110, 0.05],
+			"translation": [1.25, 8.25, 0],
 			"scale": [0.625, 1.81836, 1.81641]
 		},
 		"head": {

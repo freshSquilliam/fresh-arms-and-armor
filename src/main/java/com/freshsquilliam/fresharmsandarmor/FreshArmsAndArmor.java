@@ -40,7 +40,9 @@ public class FreshArmsAndArmor {
         MinecraftForge.EVENT_BUS.register(BarbarianArmorHandler.class);
         MinecraftForge.EVENT_BUS.register(this);
 
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+        ModLoadingContext.get().registerConfig(
+                ModConfig.Type.COMMON,
+                Config.SPEC);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {

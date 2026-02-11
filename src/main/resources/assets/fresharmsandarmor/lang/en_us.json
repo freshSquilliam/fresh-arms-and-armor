@@ -37,5 +37,13 @@
   "item.fresharmsandarmor.netherite_barbarian_helmet": "Netherite Barbarian Helmet",
   "item.fresharmsandarmor.netherite_barbarian_chestplate": "Netherite Barbarian Chestplate",
   "item.fresharmsandarmor.netherite_barbarian_leggings": "Netherite Barbarian Leggings",
-  "item.fresharmsandarmor.netherite_barbarian_boots": "Netherite Barbarian Boots"
+  "item.fresharmsandarmor.netherite_barbarian_boots": "Netherite Barbarian Boots",
+
+  "item.fresharmsandarmor.wooden_shield": "Wooden Shield",
+  "item.fresharmsandarmor.iron_shield": "Iron Shield",
+  "item.fresharmsandarmor.golden_shield": "Golden Shield",
+  "item.fresharmsandarmor.diamond_shield": "Diamond Shield",
+  "item.fresharmsandarmor.netherite_shield": "Netherite Shield"
+
+
 }

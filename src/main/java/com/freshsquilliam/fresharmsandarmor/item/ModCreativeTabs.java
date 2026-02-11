@@ -48,7 +48,10 @@ public class ModCreativeTabs {
 
                                 // -------- Shields --------
                                 output.accept(ModItems.WOODEN_SHIELD.get());
-
+                                output.accept(ModItems.IRON_SHIELD.get());
+                                output.accept(ModItems.GOLDEN_SHIELD.get());
+                                output.accept(ModItems.DIAMOND_SHIELD.get());
+                                output.accept(ModItems.NETHERITE_SHIELD.get());
 
                                 // -------- Barbarian Armor – Iron --------
                                 output.accept(BarbarianArmorRegistry.IRON_BARBARIAN_HELMET.get());

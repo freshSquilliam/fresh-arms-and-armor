@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DID",
+    "   "
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "fresharmsandarmor:iron_barbarian_helmet"
+    }
+  },
+  "result": {
+    "item": "fresharmsandarmor:diamond_barbarian_helmet"
+  }
+}

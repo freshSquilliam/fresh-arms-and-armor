@@ -1,10 +1,12 @@
-#Whether to log the dirt block on common setup
-logDirtBlock = true
-#A magic number
-#Range: > 0
-magicNumber = 42
-#What you want the introduction message to be for the magic number
-magicNumberIntroduction = "The magic number is... "
-#A list of items to log on common setup.
-items = ["minecraft:iron_ingot"]
+
+[barbarian]
+	#Damage bonus per IRON Barbarian armor piece (e.g. 0.05 = +5%)
+	#Range: 0.0 ~ 10.0
+	iron_bonus = 0.05
+	#Damage bonus per DIAMOND Barbarian armor piece
+	#Range: 0.0 ~ 10.0
+	diamond_bonus = 0.075
+	#Damage bonus per NETHERITE Barbarian armor piece
+	#Range: 0.0 ~ 10.0
+	netherite_bonus = 0.1
 

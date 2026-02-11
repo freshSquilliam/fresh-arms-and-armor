@@ -10,6 +10,8 @@ import net.minecraft.world.item.ArmorMaterial;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import com.freshsquilliam.fresharmsandarmor.Config;
+
 
 @Mod.EventBusSubscriber(
         modid = "fresharmsandarmor",
