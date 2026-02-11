@@ -46,6 +46,22 @@ public class ModCreativeTabs {
                                 output.accept(TwoHandedWeapons.DIAMOND_MAUL.get());
                                 output.accept(TwoHandedWeapons.NETHERITE_MAUL.get());
 
+                                // -------- Spears --------
+                                output.accept(OneHandedWeapons.WOODEN_SPEAR.get());
+                                output.accept(OneHandedWeapons.STONE_SPEAR.get());
+                                output.accept(OneHandedWeapons.IRON_SPEAR.get());
+                                output.accept(OneHandedWeapons.GOLDEN_SPEAR.get());
+                                output.accept(OneHandedWeapons.DIAMOND_SPEAR.get());
+                                output.accept(OneHandedWeapons.NETHERITE_SPEAR.get());
+
+                                // -------- Maces --------
+                                output.accept(OneHandedWeapons.WOODEN_MACE.get());
+                                output.accept(OneHandedWeapons.STONE_MACE.get());
+                                output.accept(OneHandedWeapons.IRON_MACE.get());
+                                output.accept(OneHandedWeapons.GOLDEN_MACE.get());
+                                output.accept(OneHandedWeapons.DIAMOND_MACE.get());
+                                output.accept(OneHandedWeapons.NETHERITE_MACE.get());
+
                                 // -------- Shields --------
                                 output.accept(ModItems.WOODEN_SHIELD.get());
                                 output.accept(ModItems.IRON_SHIELD.get());
@@ -70,6 +86,25 @@ public class ModCreativeTabs {
                                 output.accept(BarbarianArmorRegistry.NETHERITE_BARBARIAN_CHESTPLATE.get());
                                 output.accept(BarbarianArmorRegistry.NETHERITE_BARBARIAN_LEGGINGS.get());
                                 output.accept(BarbarianArmorRegistry.NETHERITE_BARBARIAN_BOOTS.get());
+
+                                // -------- Knight Armor – Iron --------
+                                output.accept(KnightArmorRegistry.IRON_KNIGHT_HELMET.get());
+                                output.accept(KnightArmorRegistry.IRON_KNIGHT_CHESTPLATE.get());
+                                output.accept(KnightArmorRegistry.IRON_KNIGHT_LEGGINGS.get());
+                                output.accept(KnightArmorRegistry.IRON_KNIGHT_BOOTS.get());
+
+                                // -------- Knight Armor – Diamond --------
+                                output.accept(KnightArmorRegistry.DIAMOND_KNIGHT_HELMET.get());
+                                output.accept(KnightArmorRegistry.DIAMOND_KNIGHT_CHESTPLATE.get());
+                                output.accept(KnightArmorRegistry.DIAMOND_KNIGHT_LEGGINGS.get());
+                                output.accept(KnightArmorRegistry.DIAMOND_KNIGHT_BOOTS.get());
+
+                                // -------- Knight Armor – Netherite --------
+                                output.accept(KnightArmorRegistry.NETHERITE_KNIGHT_HELMET.get());
+                                output.accept(KnightArmorRegistry.NETHERITE_KNIGHT_CHESTPLATE.get());
+                                output.accept(KnightArmorRegistry.NETHERITE_KNIGHT_LEGGINGS.get());
+                                output.accept(KnightArmorRegistry.NETHERITE_KNIGHT_BOOTS.get());
+
                             })
                             .build()
             );

@@ -4,10 +4,8 @@ import com.freshsquilliam.fresharmsandarmor.combat.BarbarianArmorHandler;
 import com.freshsquilliam.fresharmsandarmor.item.*;
 import com.freshsquilliam.fresharmsandarmor.loot.ModLootModifiers;
 import com.mojang.logging.LogUtils;
-import net.minecraft.client.Minecraft;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -35,6 +33,7 @@ public class FreshArmsAndArmor {
         TwoHandedWeapons.ITEMS.register(modEventBus);
         OneHandedWeapons.ITEMS.register(modEventBus);
         BarbarianArmorRegistry.ITEMS.register(modEventBus);
+        KnightArmorRegistry.ITEMS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(BarbarianArmorHandler.class);

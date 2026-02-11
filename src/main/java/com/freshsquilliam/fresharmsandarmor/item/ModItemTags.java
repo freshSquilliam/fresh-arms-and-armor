@@ -16,4 +16,13 @@ public class ModItemTags {
                             "two_handed"
                     )
             );
+
+    public static final TagKey<Item> ONE_HANDED =
+            TagKey.create(
+                    Registries.ITEM,
+                    new ResourceLocation(
+                            FreshArmsAndArmor.MODID,
+                            "one_handed"
+                    )
+            );
 }

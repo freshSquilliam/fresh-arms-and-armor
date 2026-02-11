@@ -11,9 +11,17 @@ public class TooltipHandler {
 
     @SubscribeEvent
     public static void onItemTooltip(ItemTooltipEvent event) {
+
         if (event.getItemStack().is(ModItemTags.TWO_HANDED)) {
             event.getToolTip().add(
                     Component.literal("Two-Handed")
+                            .withStyle(ChatFormatting.RED)
+            );
+        }
+
+        if (event.getItemStack().is(ModItemTags.ONE_HANDED)) {
+            event.getToolTip().add(
+                    Component.literal("One-Handed")
                             .withStyle(ChatFormatting.RED)
             );
         }

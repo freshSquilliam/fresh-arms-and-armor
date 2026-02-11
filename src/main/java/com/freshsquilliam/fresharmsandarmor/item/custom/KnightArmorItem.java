@@ -1,7 +1,7 @@
 package com.freshsquilliam.fresharmsandarmor.item.custom;
 
-import com.freshsquilliam.fresharmsandarmor.client.BarbarianArmorRenderer;
-import com.freshsquilliam.fresharmsandarmor.item.BarbArmorMaterials;
+import com.freshsquilliam.fresharmsandarmor.client.KnightArmorRenderer;
+import com.freshsquilliam.fresharmsandarmor.item.KnightArmorMaterials;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.network.chat.Component;
@@ -23,12 +23,12 @@ import software.bernie.geckolib.core.object.PlayState;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class BarbarianArmorItem extends ArmorItem implements GeoItem {
+public class KnightArmorItem extends ArmorItem implements GeoItem {
 
     private final AnimatableInstanceCache cache =
             new SingletonAnimatableInstanceCache(this);
 
-    public BarbarianArmorItem(ArmorMaterial material, Type type, Properties properties) {
+    public KnightArmorItem(ArmorMaterial material, Type type, Properties properties) {
         super(material, type, properties);
     }
 
@@ -38,7 +38,7 @@ public class BarbarianArmorItem extends ArmorItem implements GeoItem {
     public void initializeClient(Consumer<IClientItemExtensions> consumer) {
         consumer.accept(new IClientItemExtensions() {
 
-            private BarbarianArmorRenderer renderer;
+            private KnightArmorRenderer renderer;
 
             @Override
             public @NotNull HumanoidModel<?> getHumanoidArmorModel(
@@ -48,7 +48,7 @@ public class BarbarianArmorItem extends ArmorItem implements GeoItem {
                     HumanoidModel<?> original
             ) {
                 if (this.renderer == null) {
-                    this.renderer = new BarbarianArmorRenderer();
+                    this.renderer = new KnightArmorRenderer();
                 }
 
                 this.renderer.prepForRender(
@@ -91,28 +91,28 @@ public class BarbarianArmorItem extends ArmorItem implements GeoItem {
             List<Component> tooltip,
             TooltipFlag flag
     ) {
-        float bonus = getTwoHandedBonusForMaterial(this.getMaterial());
+        float bonus = getOneHandedBonusForMaterial(this.getMaterial());
 
         if (bonus > 0.0F) {
             tooltip.add(
-                    Component.literal("+" + bonus + "% Two-Handed Weapon Damage")
+                    Component.literal("+" + bonus + "% One-Handed Weapon Damage")
                             .withStyle(ChatFormatting.RED)
             );
         }
     }
 
-    private static float getTwoHandedBonusForMaterial(ArmorMaterial material) {
+    private static float getOneHandedBonusForMaterial(ArmorMaterial material) {
 
-        if (material == BarbArmorMaterials.IRON) {
-            return 5.0F;
+        if (material == KnightArmorMaterials.IRON) {
+            return 4.0F;
         }
 
-        if (material == BarbArmorMaterials.DIAMOND) {
-            return 7.5F;
+        if (material == KnightArmorMaterials.DIAMOND) {
+            return 6.0F;
         }
 
-        if (material == BarbArmorMaterials.NETHERITE) {
-            return 10.0F;
+        if (material == KnightArmorMaterials.NETHERITE) {
+            return 8.0F;
         }
 
         return 0.0F;
