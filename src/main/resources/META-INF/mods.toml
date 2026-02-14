@@ -4,11 +4,11 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="fresharmsandarmor"
-version="0.1.0"
-displayName="Fresh Arms & Armor"
+version="0.2.0"
+displayName="Fresh Arms and Armor"
 authors="fresh_squilliam"
 description='''
-Adds class-based weapons and armor with distinct playstyles.
+Adds Fantasy RPG martial classes to Minecraft
 '''
 
 [[dependencies.fresharmsandarmor]]

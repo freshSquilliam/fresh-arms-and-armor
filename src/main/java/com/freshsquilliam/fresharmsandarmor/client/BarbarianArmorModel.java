@@ -21,7 +21,7 @@ public class BarbarianArmorModel extends GeoModel<BarbarianArmorItem> {
     public ResourceLocation getTextureResource(BarbarianArmorItem animatable) {
         ArmorMaterial material = animatable.getMaterial();
 
-        // Match on material — simple and explicit
+        // Match on material
         if (material == BarbArmorMaterials.DIAMOND) {
             return new ResourceLocation(
                     FreshArmsAndArmor.MODID,

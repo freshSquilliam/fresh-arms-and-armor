@@ -1,7 +1,7 @@
 package com.freshsquilliam.fresharmsandarmor.client;
 
 import com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor;
-import com.freshsquilliam.fresharmsandarmor.item.BarbArmorMaterials;
+import com.freshsquilliam.fresharmsandarmor.item.KnightArmorMaterials;
 import com.freshsquilliam.fresharmsandarmor.item.custom.KnightArmorItem;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ArmorMaterial;
@@ -13,7 +13,7 @@ public class KnightArmorModel extends GeoModel<KnightArmorItem> {
     public ResourceLocation getModelResource(KnightArmorItem animatable) {
         return new ResourceLocation(
                 FreshArmsAndArmor.MODID,
-                "geo/barbarian_armor.geo.json"
+                "geo/knight_armor.geo.json"
         );
     }
 
@@ -21,25 +21,25 @@ public class KnightArmorModel extends GeoModel<KnightArmorItem> {
     public ResourceLocation getTextureResource(KnightArmorItem animatable) {
         ArmorMaterial material = animatable.getMaterial();
 
-        // Match on material — simple and explicit
-        if (material == BarbArmorMaterials.DIAMOND) {
+        // Match on material
+        if (material == KnightArmorMaterials.DIAMOND) {
             return new ResourceLocation(
                     FreshArmsAndArmor.MODID,
-                    "textures/armor/barbarian_armor_diamond.png"
+                    "textures/armor/knight_armor_diamond.png"
             );
         }
 
-        if (material == BarbArmorMaterials.NETHERITE) {
+        if (material == KnightArmorMaterials.NETHERITE) {
             return new ResourceLocation(
                     FreshArmsAndArmor.MODID,
-                    "textures/armor/barbarian_armor_netherite.png"
+                    "textures/armor/knight_armor_netherite.png"
             );
         }
 
         // Default: iron
         return new ResourceLocation(
                 FreshArmsAndArmor.MODID,
-                "textures/armor/barbarian_armor_iron.png"
+                "textures/armor/knight_armor_iron.png"
         );
     }
 
@@ -47,7 +47,7 @@ public class KnightArmorModel extends GeoModel<KnightArmorItem> {
     public ResourceLocation getAnimationResource(KnightArmorItem animatable) {
         return new ResourceLocation(
                 FreshArmsAndArmor.MODID,
-                "animations/barbarian_armor.animation.json"
+                "animations/knight_armor.animation.json"
         );
     }
 }
