@@ -14,11 +14,11 @@
     "minecraft:diamond_sword",
     "minecraft:netherite_sword",
 
-    "fresharmsandarmor:wooden_spear",
-    "fresharmsandarmor:stone_spear",
-    "fresharmsandarmor:iron_spear",
-    "fresharmsandarmor:golden_spear",
-    "fresharmsandarmor:diamond_spear",
-    "fresharmsandarmor:netherite_spear"
+    "fresharmsandarmor:wooden_trident",
+    "fresharmsandarmor:stone_trident",
+    "fresharmsandarmor:iron_trident",
+    "fresharmsandarmor:golden_trident",
+    "fresharmsandarmor:diamond_trident",
+    "fresharmsandarmor:netherite_trident"
   ]
 }

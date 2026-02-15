@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "NWN",
+    " N "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:diamond"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "fresharmsandarmor:diamond_shield"
+  }
+}

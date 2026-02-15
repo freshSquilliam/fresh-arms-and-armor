@@ -5,6 +5,7 @@ import com.freshsquilliam.fresharmsandarmor.item.ModItemTags;
 import com.freshsquilliam.fresharmsandarmor.item.custom.KnightArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.monster.Enemy;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.item.ArmorMaterial;
@@ -76,7 +77,7 @@ public class KnightArmorHandler {
     }
 
     // ----------------------
-    // FULL SET AGGRO SYSTEM
+    // FULL SET HOSTILE AGGRO SYSTEM
     // ----------------------
 
     @SubscribeEvent
@@ -90,7 +91,7 @@ public class KnightArmorHandler {
             return;
         }
 
-        // Only every 10 ticks (performance safe)
+        // Run every 60 ticks (3 seconds)
         if (knight.tickCount % 60 != 0) {
             return;
         }
@@ -103,9 +104,15 @@ public class KnightArmorHandler {
                 Mob.class,
                 knight.getBoundingBox().inflate(AGGRO_RADIUS)
         )) {
+
+            // Only affect hostile mobs
+            if (!(mob instanceof Enemy)) {
+                continue;
+            }
+
             if (!mob.isAlive()) continue;
 
-            // Respect mob follow range if present
+            // Respect mob follow range
             if (mob.getAttribute(Attributes.FOLLOW_RANGE) != null) {
                 double followRange = mob.getAttribute(Attributes.FOLLOW_RANGE).getValue();
                 if (mob.distanceTo(knight) > followRange) {

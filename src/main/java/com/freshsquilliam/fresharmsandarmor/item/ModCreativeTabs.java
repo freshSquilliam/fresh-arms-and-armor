@@ -47,12 +47,12 @@ public class ModCreativeTabs {
                                 output.accept(TwoHandedWeapons.NETHERITE_MAUL.get());
 
                                 // -------- Spears --------
-                                output.accept(OneHandedWeapons.WOODEN_SPEAR.get());
-                                output.accept(OneHandedWeapons.STONE_SPEAR.get());
-                                output.accept(OneHandedWeapons.IRON_SPEAR.get());
-                                output.accept(OneHandedWeapons.GOLDEN_SPEAR.get());
-                                output.accept(OneHandedWeapons.DIAMOND_SPEAR.get());
-                                output.accept(OneHandedWeapons.NETHERITE_SPEAR.get());
+                                output.accept(OneHandedWeapons.WOODEN_TRIDENT.get());
+                                output.accept(OneHandedWeapons.STONE_TRIDENT.get());
+                                output.accept(OneHandedWeapons.IRON_TRIDENT.get());
+                                output.accept(OneHandedWeapons.GOLDEN_TRIDENT.get());
+                                output.accept(OneHandedWeapons.DIAMOND_TRIDENT.get());
+                                output.accept(OneHandedWeapons.NETHERITE_TRIDENT.get());
 
                                 // -------- Maces --------
                                 output.accept(OneHandedWeapons.WOODEN_MACE.get());

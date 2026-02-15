@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "ISI",
+    "I I"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "fresharmsandarmor:iron_knight_leggings"
+    }
+  },
+  "result": {
+    "item": "fresharmsandarmor:diamond_knight_leggings"
+  }
+}

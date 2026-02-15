@@ -18,7 +18,7 @@ public class OneHandedWeapons {
                     new SwordItem(
                             Tiers.WOOD, //wood/gold=1, stone=2, iron=3, diamond=4, netherite=5
                             4, //material + <this number> = damage
-                            -3.06F, //4 - <this number> = speed (attacks/second)
+                            -2.72F, //4 - <this number> = speed (attacks/second)
                             new Item.Properties()
                     )
             );
@@ -73,8 +73,8 @@ public class OneHandedWeapons {
                     )
             );
 
-    public static final RegistryObject<Item> WOODEN_SPEAR =
-            ITEMS.register("wooden_spear", () ->
+    public static final RegistryObject<Item> WOODEN_TRIDENT =
+            ITEMS.register("wooden_trident", () ->
                     new SwordItem(
                             Tiers.WOOD,
                             2,
@@ -83,8 +83,8 @@ public class OneHandedWeapons {
                     )
             );
 
-    public static final RegistryObject<Item> STONE_SPEAR =
-            ITEMS.register("stone_spear", () ->
+    public static final RegistryObject<Item> STONE_TRIDENT =
+            ITEMS.register("stone_trident", () ->
                     new SwordItem(
                             Tiers.STONE,
                             2,
@@ -93,8 +93,8 @@ public class OneHandedWeapons {
                     )
             );
 
-    public static final RegistryObject<Item> IRON_SPEAR =
-            ITEMS.register("iron_spear", () ->
+    public static final RegistryObject<Item> IRON_TRIDENT =
+            ITEMS.register("iron_trident", () ->
                     new SwordItem(
                             Tiers.IRON,
                             2,
@@ -103,8 +103,8 @@ public class OneHandedWeapons {
                     )
             );
 
-    public static final RegistryObject<Item> GOLDEN_SPEAR =
-            ITEMS.register("golden_spear", () ->
+    public static final RegistryObject<Item> GOLDEN_TRIDENT =
+            ITEMS.register("golden_trident", () ->
                     new SwordItem(
                             Tiers.GOLD,
                             2,
@@ -113,8 +113,8 @@ public class OneHandedWeapons {
                     )
             );
 
-    public static final RegistryObject<Item> DIAMOND_SPEAR =
-            ITEMS.register("diamond_spear", () ->
+    public static final RegistryObject<Item> DIAMOND_TRIDENT =
+            ITEMS.register("diamond_trident", () ->
                     new SwordItem(
                             Tiers.DIAMOND,
                             2,
@@ -123,8 +123,8 @@ public class OneHandedWeapons {
                     )
             );
 
-    public static final RegistryObject<Item> NETHERITE_SPEAR =
-            ITEMS.register("netherite_spear", () ->
+    public static final RegistryObject<Item> NETHERITE_TRIDENT =
+            ITEMS.register("netherite_trident", () ->
                     new SwordItem(
                             Tiers.NETHERITE,
                             2,

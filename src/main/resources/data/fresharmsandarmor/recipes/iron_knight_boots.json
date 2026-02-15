@@ -1,19 +1,18 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "  I",
-    " S ",
-    "S  "
+    "ISI",
+    "I I"
   ],
   "key": {
     "I": {
       "item": "minecraft:iron_ingot"
     },
     "S": {
-      "item": "minecraft:stick"
+      "item": "fresharmsandarmor:war_sigil"
     }
   },
   "result": {
-    "item": "fresharmsandarmor:iron_spear"
+    "item": "fresharmsandarmor:iron_knight_boots"
   }
 }

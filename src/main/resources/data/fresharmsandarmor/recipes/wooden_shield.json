@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WWW",
+    "NWN",
+    " N "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:planks"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "fresharmsandarmor:wooden_shield"
+  }
+}

@@ -1,19 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "  I",
-    " S ",
-    "S  "
+    "ISI",
+    "III",
+    "III"
   ],
   "key": {
     "I": {
       "item": "minecraft:diamond"
     },
     "S": {
-      "item": "minecraft:stick"
+      "item": "fresharmsandarmor:iron_knight_chestplate"
     }
   },
   "result": {
-    "item": "fresharmsandarmor:diamond_spear"
+    "item": "fresharmsandarmor:diamond_knight_chestplate"
   }
 }

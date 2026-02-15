@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "ISI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "fresharmsandarmor:iron_knight_helmet"
+    }
+  },
+  "result": {
+    "item": "fresharmsandarmor:diamond_knight_helmet"
+  }
+}
