@@ -15,11 +15,27 @@ public class Config {
 
     public static class Common {
 
+        // ----------------------
+        // BARBARIAN
+        // ----------------------
+
         public final ForgeConfigSpec.DoubleValue barbarianIronBonus;
         public final ForgeConfigSpec.DoubleValue barbarianDiamondBonus;
         public final ForgeConfigSpec.DoubleValue barbarianNetheriteBonus;
 
+        // ----------------------
+        // KNIGHT
+        // ----------------------
+
+        public final ForgeConfigSpec.DoubleValue knightIronBonus;
+        public final ForgeConfigSpec.DoubleValue knightDiamondBonus;
+        public final ForgeConfigSpec.DoubleValue knightNetheriteBonus;
+
         Common(ForgeConfigSpec.Builder builder) {
+
+            // ======================
+            // BARBARIAN
+            // ======================
 
             builder.push("barbarian");
 
@@ -34,6 +50,26 @@ public class Config {
             barbarianNetheriteBonus = builder
                     .comment("Damage bonus per NETHERITE Barbarian armor piece")
                     .defineInRange("netherite_bonus", 0.10D, 0.0D, 10.0D);
+
+            builder.pop();
+
+            // ======================
+            // KNIGHT
+            // ======================
+
+            builder.push("knight");
+
+            knightIronBonus = builder
+                    .comment("Damage bonus per IRON Knight armor piece (e.g. 0.04 = +4%)")
+                    .defineInRange("iron_bonus", 0.04D, 0.0D, 10.0D);
+
+            knightDiamondBonus = builder
+                    .comment("Damage bonus per DIAMOND Knight armor piece")
+                    .defineInRange("diamond_bonus", 0.06D, 0.0D, 10.0D);
+
+            knightNetheriteBonus = builder
+                    .comment("Damage bonus per NETHERITE Knight armor piece")
+                    .defineInRange("netherite_bonus", 0.08D, 0.0D, 10.0D);
 
             builder.pop();
         }
