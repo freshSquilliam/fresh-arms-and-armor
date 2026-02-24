@@ -1,5 +1,6 @@
 package com.freshsquilliam.fresharmsandarmor.combat;
 
+import com.freshsquilliam.fresharmsandarmor.Config;
 import com.freshsquilliam.fresharmsandarmor.item.KnightArmorMaterials;
 import com.freshsquilliam.fresharmsandarmor.item.ModItemTags;
 import com.freshsquilliam.fresharmsandarmor.item.custom.KnightArmorItem;
@@ -34,11 +35,11 @@ public class KnightArmorHandler {
             return;
         }
 
-        if (!weaponIsOneHanded(player)) {
+        if (!player.getMainHandItem().is(ModItemTags.ONE_HANDED)) {
             return;
         }
 
-        float bonus = 0.0F;
+        float totalBonus = 0.0F;
 
         for (EquipmentSlot slot : EquipmentSlot.values()) {
             if (!slot.isArmor()) continue;
@@ -46,31 +47,27 @@ public class KnightArmorHandler {
             ItemStack armorStack = player.getItemBySlot(slot);
 
             if (armorStack.getItem() instanceof KnightArmorItem armor) {
-                bonus += getBonusForMaterial(armor.getMaterial());
+                totalBonus += getBonusForMaterial(armor.getMaterial());
             }
         }
 
-        if (bonus <= 0.0F) return;
+        if (totalBonus <= 0.0F) return;
 
-        event.setAmount(event.getAmount() * (1.0F + bonus));
-    }
-
-    private static boolean weaponIsOneHanded(Player player) {
-        return player.getMainHandItem().is(ModItemTags.ONE_HANDED);
+        event.setAmount(event.getAmount() * (1.0F + totalBonus));
     }
 
     private static float getBonusForMaterial(ArmorMaterial material) {
 
         if (material == KnightArmorMaterials.IRON) {
-            return 0.04F;
+            return Config.KNIGHT_IRON_BONUS.get().floatValue();
         }
 
         if (material == KnightArmorMaterials.DIAMOND) {
-            return 0.06F;
+            return Config.KNIGHT_DIAMOND_BONUS.get().floatValue();
         }
 
         if (material == KnightArmorMaterials.NETHERITE) {
-            return 0.08F;
+            return Config.KNIGHT_NETHERITE_BONUS.get().floatValue();
         }
 
         return 0.0F;
@@ -91,7 +88,6 @@ public class KnightArmorHandler {
             return;
         }
 
-        // Run every 60 ticks (3 seconds)
         if (knight.tickCount % 60 != 0) {
             return;
         }
@@ -105,19 +101,12 @@ public class KnightArmorHandler {
                 knight.getBoundingBox().inflate(AGGRO_RADIUS)
         )) {
 
-            // Only affect hostile mobs
-            if (!(mob instanceof Enemy)) {
-                continue;
-            }
-
+            if (!(mob instanceof Enemy)) continue;
             if (!mob.isAlive()) continue;
 
-            // Respect mob follow range
             if (mob.getAttribute(Attributes.FOLLOW_RANGE) != null) {
                 double followRange = mob.getAttribute(Attributes.FOLLOW_RANGE).getValue();
-                if (mob.distanceTo(knight) > followRange) {
-                    continue;
-                }
+                if (mob.distanceTo(knight) > followRange) continue;
             }
 
             if (mob.getTarget() != knight) {

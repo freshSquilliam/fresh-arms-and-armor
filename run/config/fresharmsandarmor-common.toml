@@ -1,12 +1,23 @@
 
-[barbarian]
-	#Damage bonus per IRON Barbarian armor piece (e.g. 0.05 = +5%)
-	#Range: 0.0 ~ 10.0
-	iron_bonus = 0.05
-	#Damage bonus per DIAMOND Barbarian armor piece
-	#Range: 0.0 ~ 10.0
-	diamond_bonus = 0.075
-	#Damage bonus per NETHERITE Barbarian armor piece
-	#Range: 0.0 ~ 10.0
-	netherite_bonus = 0.1
+["Barbarian Armor"]
+	#Damage bonus per piece of Iron Barbarian armor (0.05 = 5%)
+	#Range: 0.0 ~ 5.0
+	ironBonus = 0.05
+	#Damage bonus per piece of Diamond Barbarian armor (0.075 = 7.5%)
+	#Range: 0.0 ~ 5.0
+	diamondBonus = 0.075
+	#Damage bonus per piece of Netherite Barbarian armor (0.10 = 10%)
+	#Range: 0.0 ~ 5.0
+	netheriteBonus = 0.1
+
+["Knight Armor"]
+	#Damage bonus per piece of Iron Knight armor (0.04 = 4%)
+	#Range: 0.0 ~ 5.0
+	ironBonus = 0.04
+	#Damage bonus per piece of Diamond Knight armor (0.06 = 6%)
+	#Range: 0.0 ~ 5.0
+	diamondBonus = 0.06
+	#Damage bonus per piece of Netherite Knight armor (0.08 = 8%)
+	#Range: 0.0 ~ 5.0
+	netheriteBonus = 0.08
 

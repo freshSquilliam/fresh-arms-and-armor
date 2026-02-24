@@ -1,8 +1,11 @@
 package com.freshsquilliam.fresharmsandarmor.combat;
 
+import com.freshsquilliam.fresharmsandarmor.Config;
+import com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor;
 import com.freshsquilliam.fresharmsandarmor.item.ModItemTags;
 import com.freshsquilliam.fresharmsandarmor.item.BarbArmorMaterials;
 import com.freshsquilliam.fresharmsandarmor.item.custom.BarbarianArmorItem;
+import com.mojang.logging.LogUtils;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
@@ -10,73 +13,51 @@ import net.minecraft.world.item.ArmorMaterial;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-
+import org.slf4j.Logger;
 
 @Mod.EventBusSubscriber(
-        modid = "fresharmsandarmor",
+        modid = FreshArmsAndArmor.MODID,
         bus = Mod.EventBusSubscriber.Bus.FORGE
 )
 public class BarbarianArmorHandler {
 
+    private static final Logger LOGGER = LogUtils.getLogger();
+
     @SubscribeEvent
     public static void onLivingHurt(LivingHurtEvent event) {
 
-        System.out.println("[BarbarianArmorHandler] LivingHurtEvent fired");
-
-        // Must be player damage
         if (!(event.getSource().getEntity() instanceof Player player)) {
-            System.out.println("[BarbarianArmorHandler] Damage source is not a player");
             return;
         }
-
-        System.out.println("[BarbarianArmorHandler] Damage source is player");
 
         // Must be using a two-handed weapon
         ItemStack weapon = player.getMainHandItem();
         if (!weapon.is(ModItemTags.TWO_HANDED)) {
-            System.out.println("[BarbarianArmorHandler] Weapon is NOT two-handed");
             return;
         }
 
-        System.out.println("[BarbarianArmorHandler] Weapon IS two-handed");
+        float totalBonus = 0.0F;
 
-        float bonus = 0.0F;
+        for (EquipmentSlot slot : EquipmentSlot.values()) {
+            if (!slot.isArmor()) continue;
 
-        for (EquipmentSlot slot : new EquipmentSlot[]{
-                EquipmentSlot.HEAD,
-                EquipmentSlot.CHEST,
-                EquipmentSlot.LEGS,
-                EquipmentSlot.FEET
-        }) {
             ItemStack armorStack = player.getItemBySlot(slot);
 
-            if (!(armorStack.getItem() instanceof BarbarianArmorItem armor)) {
-                continue;
+            if (armorStack.getItem() instanceof BarbarianArmorItem armor) {
+                float pieceBonus = getBonusForMaterial(armor.getMaterial());
+                totalBonus += pieceBonus;
             }
-
-            float pieceBonus = getBonusForMaterial(armor.getMaterial());
-            bonus += pieceBonus;
-
-            System.out.println(
-                    "[BarbarianArmorHandler] Found barbarian armor in slot "
-                            + slot + " with bonus " + pieceBonus
-            );
         }
 
-        if (bonus <= 0.0F) {
-            System.out.println("[BarbarianArmorHandler] Total bonus is 0 — no damage modification");
+        if (totalBonus <= 0.0F) {
             return;
         }
 
         float original = event.getAmount();
-        float modified = original * (1.0F + bonus);
+        float modified = original * (1.0F + totalBonus);
 
-        System.out.println(
-                "[BarbarianArmorHandler] Applying bonus: " +
-                        "original=" + original +
-                        ", bonus=" + bonus +
-                        ", final=" + modified
-        );
+        LOGGER.debug("Barbarian bonus applied: original={}, bonus={}, final={}",
+                original, totalBonus, modified);
 
         event.setAmount(modified);
     }
@@ -84,15 +65,15 @@ public class BarbarianArmorHandler {
     private static float getBonusForMaterial(ArmorMaterial material) {
 
         if (material == BarbArmorMaterials.IRON) {
-            return 0.05F; // +5% per piece
+            return Config.BARB_IRON_BONUS.get().floatValue();
         }
 
         if (material == BarbArmorMaterials.DIAMOND) {
-            return 0.075F; // +7.5% per piece
+            return Config.BARB_DIAMOND_BONUS.get().floatValue();
         }
 
         if (material == BarbArmorMaterials.NETHERITE) {
-            return 0.10F; // +10% per piece
+            return Config.BARB_NETHERITE_BONUS.get().floatValue();
         }
 
         return 0.0F;

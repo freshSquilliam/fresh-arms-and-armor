@@ -5,73 +5,66 @@ import net.minecraftforge.common.ForgeConfigSpec;
 public class Config {
 
     public static final ForgeConfigSpec SPEC;
-    public static final Common COMMON;
+
+    // ----------------------
+    // BARBARIAN
+    // ----------------------
+
+    public static final ForgeConfigSpec.DoubleValue BARB_IRON_BONUS;
+    public static final ForgeConfigSpec.DoubleValue BARB_DIAMOND_BONUS;
+    public static final ForgeConfigSpec.DoubleValue BARB_NETHERITE_BONUS;
+
+    // ----------------------
+    // KNIGHT
+    // ----------------------
+
+    public static final ForgeConfigSpec.DoubleValue KNIGHT_IRON_BONUS;
+    public static final ForgeConfigSpec.DoubleValue KNIGHT_DIAMOND_BONUS;
+    public static final ForgeConfigSpec.DoubleValue KNIGHT_NETHERITE_BONUS;
 
     static {
         ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
-        COMMON = new Common(builder);
+
+        // ----------------------
+        // Barbarian
+        // ----------------------
+
+        builder.push("Barbarian Armor");
+
+        BARB_IRON_BONUS = builder
+                .comment("Damage bonus per piece of Iron Barbarian armor (0.05 = 5%)")
+                .defineInRange("ironBonus", 0.05D, 0.0D, 5.0D);
+
+        BARB_DIAMOND_BONUS = builder
+                .comment("Damage bonus per piece of Diamond Barbarian armor (0.075 = 7.5%)")
+                .defineInRange("diamondBonus", 0.075D, 0.0D, 5.0D);
+
+        BARB_NETHERITE_BONUS = builder
+                .comment("Damage bonus per piece of Netherite Barbarian armor (0.10 = 10%)")
+                .defineInRange("netheriteBonus", 0.10D, 0.0D, 5.0D);
+
+        builder.pop();
+
+        // ----------------------
+        // Knight
+        // ----------------------
+
+        builder.push("Knight Armor");
+
+        KNIGHT_IRON_BONUS = builder
+                .comment("Damage bonus per piece of Iron Knight armor (0.04 = 4%)")
+                .defineInRange("ironBonus", 0.04D, 0.0D, 5.0D);
+
+        KNIGHT_DIAMOND_BONUS = builder
+                .comment("Damage bonus per piece of Diamond Knight armor (0.06 = 6%)")
+                .defineInRange("diamondBonus", 0.06D, 0.0D, 5.0D);
+
+        KNIGHT_NETHERITE_BONUS = builder
+                .comment("Damage bonus per piece of Netherite Knight armor (0.08 = 8%)")
+                .defineInRange("netheriteBonus", 0.08D, 0.0D, 5.0D);
+
+        builder.pop();
+
         SPEC = builder.build();
-    }
-
-    public static class Common {
-
-        // ----------------------
-        // BARBARIAN
-        // ----------------------
-
-        public final ForgeConfigSpec.DoubleValue barbarianIronBonus;
-        public final ForgeConfigSpec.DoubleValue barbarianDiamondBonus;
-        public final ForgeConfigSpec.DoubleValue barbarianNetheriteBonus;
-
-        // ----------------------
-        // KNIGHT
-        // ----------------------
-
-        public final ForgeConfigSpec.DoubleValue knightIronBonus;
-        public final ForgeConfigSpec.DoubleValue knightDiamondBonus;
-        public final ForgeConfigSpec.DoubleValue knightNetheriteBonus;
-
-        Common(ForgeConfigSpec.Builder builder) {
-
-            // ======================
-            // BARBARIAN
-            // ======================
-
-            builder.push("barbarian");
-
-            barbarianIronBonus = builder
-                    .comment("Damage bonus per IRON Barbarian armor piece (e.g. 0.05 = +5%)")
-                    .defineInRange("iron_bonus", 0.05D, 0.0D, 10.0D);
-
-            barbarianDiamondBonus = builder
-                    .comment("Damage bonus per DIAMOND Barbarian armor piece")
-                    .defineInRange("diamond_bonus", 0.075D, 0.0D, 10.0D);
-
-            barbarianNetheriteBonus = builder
-                    .comment("Damage bonus per NETHERITE Barbarian armor piece")
-                    .defineInRange("netherite_bonus", 0.10D, 0.0D, 10.0D);
-
-            builder.pop();
-
-            // ======================
-            // KNIGHT
-            // ======================
-
-            builder.push("knight");
-
-            knightIronBonus = builder
-                    .comment("Damage bonus per IRON Knight armor piece (e.g. 0.04 = +4%)")
-                    .defineInRange("iron_bonus", 0.04D, 0.0D, 10.0D);
-
-            knightDiamondBonus = builder
-                    .comment("Damage bonus per DIAMOND Knight armor piece")
-                    .defineInRange("diamond_bonus", 0.06D, 0.0D, 10.0D);
-
-            knightNetheriteBonus = builder
-                    .comment("Damage bonus per NETHERITE Knight armor piece")
-                    .defineInRange("netherite_bonus", 0.08D, 0.0D, 10.0D);
-
-            builder.pop();
-        }
     }
 }

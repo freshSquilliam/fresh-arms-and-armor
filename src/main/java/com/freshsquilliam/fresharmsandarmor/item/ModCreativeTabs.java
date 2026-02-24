@@ -1,7 +1,6 @@
 package com.freshsquilliam.fresharmsandarmor.item;
 
 import com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor;
-import com.freshsquilliam.fresharmsandarmor.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -61,6 +60,30 @@ public class ModCreativeTabs {
                                 output.accept(OneHandedWeapons.GOLDEN_MACE.get());
                                 output.accept(OneHandedWeapons.DIAMOND_MACE.get());
                                 output.accept(OneHandedWeapons.NETHERITE_MACE.get());
+
+                                // -------- Glaives --------
+                                output.accept(Polearms.WOODEN_GLAIVE.get());
+                                output.accept(Polearms.STONE_GLAIVE.get());
+                                output.accept(Polearms.IRON_GLAIVE.get());
+                                output.accept(Polearms.GOLDEN_GLAIVE.get());
+                                output.accept(Polearms.DIAMOND_GLAIVE.get());
+                                output.accept(Polearms.NETHERITE_GLAIVE.get());
+
+                                // -------- Halberds --------
+                                output.accept(Polearms.WOODEN_HALBERD.get());
+                                output.accept(Polearms.STONE_HALBERD.get());
+                                output.accept(Polearms.IRON_HALBERD.get());
+                                output.accept(Polearms.GOLDEN_HALBERD.get());
+                                output.accept(Polearms.DIAMOND_HALBERD.get());
+                                output.accept(Polearms.NETHERITE_HALBERD.get());
+
+                                // -------- Pikes --------
+                                output.accept(Polearms.WOODEN_PIKE.get());
+                                output.accept(Polearms.STONE_PIKE.get());
+                                output.accept(Polearms.IRON_PIKE.get());
+                                output.accept(Polearms.GOLDEN_PIKE.get());
+                                output.accept(Polearms.DIAMOND_PIKE.get());
+                                output.accept(Polearms.NETHERITE_PIKE.get());
 
                                 // -------- Shields --------
                                 output.accept(ModItems.WOODEN_SHIELD.get());

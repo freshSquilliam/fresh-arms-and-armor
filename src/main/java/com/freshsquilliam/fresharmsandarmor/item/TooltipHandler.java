@@ -25,5 +25,12 @@ public class TooltipHandler {
                             .withStyle(ChatFormatting.RED)
             );
         }
+
+        if (event.getItemStack().is(ModItemTags.POLEARMS)) {
+            event.getToolTip().add(
+                    Component.literal("Polearm")
+                            .withStyle(ChatFormatting.RED)
+            );
+        }
     }
 }

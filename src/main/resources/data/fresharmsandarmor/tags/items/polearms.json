@@ -1,0 +1,24 @@
+{
+  "values": [
+    "fresharmsandarmor:wooden_glaive",
+    "fresharmsandarmor:stone_glaive",
+    "fresharmsandarmor:iron_glaive",
+    "fresharmsandarmor:golden_glaive",
+    "fresharmsandarmor:diamond_glaive",
+    "fresharmsandarmor:netherite_glaive",
+
+    "fresharmsandarmor:wooden_halberd",
+    "fresharmsandarmor:stone_halberd",
+    "fresharmsandarmor:iron_halberd",
+    "fresharmsandarmor:golden_halberd",
+    "fresharmsandarmor:diamond_halberd",
+    "fresharmsandarmor:netherite_halberd",
+
+    "fresharmsandarmor:wooden_pike",
+    "fresharmsandarmor:stone_pike",
+    "fresharmsandarmor:iron_pike",
+    "fresharmsandarmor:golden_pike",
+    "fresharmsandarmor:diamond_pike",
+    "fresharmsandarmor:netherite_pike"
+  ]
+}

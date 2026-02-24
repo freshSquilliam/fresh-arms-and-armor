@@ -25,4 +25,13 @@ public class ModItemTags {
                             "one_handed"
                     )
             );
+
+    public static final TagKey<Item> POLEARMS =
+            TagKey.create(
+                    Registries.ITEM,
+                    new ResourceLocation(
+                            FreshArmsAndArmor.MODID,
+                            "polearm"
+                    )
+            );
 }

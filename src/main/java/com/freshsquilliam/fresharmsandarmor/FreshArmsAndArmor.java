@@ -32,6 +32,7 @@ public class FreshArmsAndArmor {
 
         TwoHandedWeapons.ITEMS.register(modEventBus);
         OneHandedWeapons.ITEMS.register(modEventBus);
+        Polearms.ITEMS.register(modEventBus);
         BarbarianArmorRegistry.ITEMS.register(modEventBus);
         KnightArmorRegistry.ITEMS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
