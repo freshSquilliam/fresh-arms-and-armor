@@ -78,12 +78,12 @@ public class ModCreativeTabs {
                                 output.accept(Polearms.NETHERITE_HALBERD.get());
 
                                 // -------- Pikes --------
-                                output.accept(Polearms.WOODEN_PIKE.get());
-                                output.accept(Polearms.STONE_PIKE.get());
-                                output.accept(Polearms.IRON_PIKE.get());
-                                output.accept(Polearms.GOLDEN_PIKE.get());
-                                output.accept(Polearms.DIAMOND_PIKE.get());
-                                output.accept(Polearms.NETHERITE_PIKE.get());
+                                output.accept(Polearms.WOODEN_SPEAR.get());
+                                output.accept(Polearms.STONE_SPEAR.get());
+                                output.accept(Polearms.IRON_SPEAR.get());
+                                output.accept(Polearms.GOLDEN_SPEAR.get());
+                                output.accept(Polearms.DIAMOND_SPEAR.get());
+                                output.accept(Polearms.NETHERITE_SPEAR.get());
 
                                 // -------- Shields --------
                                 output.accept(ModItems.WOODEN_SHIELD.get());

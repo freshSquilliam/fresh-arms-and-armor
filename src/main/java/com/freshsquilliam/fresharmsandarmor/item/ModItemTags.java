@@ -31,7 +31,7 @@ public class ModItemTags {
                     Registries.ITEM,
                     new ResourceLocation(
                             FreshArmsAndArmor.MODID,
-                            "polearm"
+                            "polearms"
                     )
             );
 }
