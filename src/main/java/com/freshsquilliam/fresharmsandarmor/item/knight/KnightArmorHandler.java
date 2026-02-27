@@ -1,9 +1,7 @@
-package com.freshsquilliam.fresharmsandarmor.combat;
+package com.freshsquilliam.fresharmsandarmor.item.knight;
 
 import com.freshsquilliam.fresharmsandarmor.Config;
-import com.freshsquilliam.fresharmsandarmor.item.KnightArmorMaterials;
 import com.freshsquilliam.fresharmsandarmor.item.ModItemTags;
-import com.freshsquilliam.fresharmsandarmor.item.custom.KnightArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.monster.Enemy;

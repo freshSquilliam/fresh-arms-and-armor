@@ -1,4 +1,4 @@
-package com.freshsquilliam.fresharmsandarmor.item;
+package com.freshsquilliam.fresharmsandarmor.item.knight;
 
 import net.minecraft.Util;
 import net.minecraft.sounds.SoundEvent;

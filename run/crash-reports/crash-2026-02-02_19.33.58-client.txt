@@ -8,7 +8,7 @@ net.minecraft.ResourceLocationException: Non [a-z0-9_.-] character in namespace 
 	at net.minecraft.resources.ResourceLocation.assertValidNamespace(ResourceLocation.java:221) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:40) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
 	at com.freshsquilliam.fresharmsandarmor.client.renderer.BarbarianArmorRenderer.<init>(BarbarianArmorRenderer.java:14) ~[main/:?] {re:classloading}
-	at com.freshsquilliam.fresharmsandarmor.item.custom.BarbarianArmorItem$1.getHumanoidArmorModel(IronBarbarianArmorItem.java:47) ~[main/:?] {re:classloading}
+	at com.freshsquilliam.fresharmsandarmor.item.barbarian.BarbarianArmorItem$1.getHumanoidArmorModel(IronBarbarianArmorItem.java:47) ~[main/:?] {re:classloading}
 	at net.minecraftforge.client.extensions.common.IClientItemExtensions.getGenericArmorModel(IClientItemExtensions.java:129) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?] {re:classloading}
 	at net.minecraftforge.client.ForgeHooksClient.getArmorModel(ForgeHooksClient.java:327) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?] {re:classloading}
 	at net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer.getArmorModelHook(HumanoidArmorLayer.java:149) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
@@ -56,7 +56,7 @@ Stacktrace:
 	at net.minecraft.resources.ResourceLocation.assertValidNamespace(ResourceLocation.java:221) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
 	at net.minecraft.resources.ResourceLocation.<init>(ResourceLocation.java:40) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:accesstransformer:B,re:mixin,pl:accesstransformer:B}
 	at com.freshsquilliam.fresharmsandarmor.client.renderer.BarbarianArmorRenderer.<init>(BarbarianArmorRenderer.java:14) ~[%23196!/:?] {re:classloading}
-	at com.freshsquilliam.fresharmsandarmor.item.custom.BarbarianArmorItem$1.getHumanoidArmorModel(IronBarbarianArmorItem.java:47) ~[%23196!/:?] {re:classloading}
+	at com.freshsquilliam.fresharmsandarmor.item.barbarian.BarbarianArmorItem$1.getHumanoidArmorModel(IronBarbarianArmorItem.java:47) ~[%23196!/:?] {re:classloading}
 	at net.minecraftforge.client.extensions.common.IClientItemExtensions.getGenericArmorModel(IClientItemExtensions.java:129) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar%23190%23197!/:?] {re:classloading}
 	at net.minecraftforge.client.ForgeHooksClient.getArmorModel(ForgeHooksClient.java:327) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar%23190%23197!/:?] {re:classloading}
 	at net.minecraft.client.renderer.entity.layers.HumanoidArmorLayer.getArmorModelHook(HumanoidArmorLayer.java:149) ~[forge-1.20.1-47.4.15_mapped_official_1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:runtimedistcleaner:A}

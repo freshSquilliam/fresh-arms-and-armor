@@ -1,4 +1,4 @@
-package com.freshsquilliam.fresharmsandarmor.item;
+package com.freshsquilliam.fresharmsandarmor.item.knight;
 
 import com.google.common.collect.ImmutableMultimap;
 import com.google.common.collect.Multimap;

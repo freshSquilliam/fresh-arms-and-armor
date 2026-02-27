@@ -22,6 +22,15 @@ public class Config {
     public static final ForgeConfigSpec.DoubleValue KNIGHT_DIAMOND_BONUS;
     public static final ForgeConfigSpec.DoubleValue KNIGHT_NETHERITE_BONUS;
 
+    // ----------------------
+    // VANGUARD
+    // ----------------------
+
+    public static final ForgeConfigSpec.DoubleValue VANGUARD_IRON_BONUS;
+    public static final ForgeConfigSpec.DoubleValue VANGUARD_DIAMOND_BONUS;
+    public static final ForgeConfigSpec.DoubleValue VANGUARD_NETHERITE_BONUS;
+
+
     static {
         ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
 
@@ -62,6 +71,26 @@ public class Config {
         KNIGHT_NETHERITE_BONUS = builder
                 .comment("Damage bonus per piece of Netherite Knight armor (0.08 = 8%)")
                 .defineInRange("netheriteBonus", 0.08D, 0.0D, 5.0D);
+
+        builder.pop();
+
+        // ----------------------
+        // Vanguard
+        // ----------------------
+
+        builder.push("Vanguard Armor");
+
+        VANGUARD_IRON_BONUS = builder
+                .comment("Damage bonus per piece of Iron Vanguard armor (0.045 = 4.5%)")
+                .defineInRange("ironBonus", 0.045D, 0.0D, 5.0D);
+
+        VANGUARD_DIAMOND_BONUS = builder
+                .comment("Damage bonus per piece of Diamond Vanguard armor (0.07 = 7%)")
+                .defineInRange("diamondBonus", 0.07D, 0.0D, 5.0D);
+
+        VANGUARD_NETHERITE_BONUS = builder
+                .comment("Damage bonus per piece of Netherite Vanguard armor (0.09 = 9%)")
+                .defineInRange("netheriteBonus", 0.09D, 0.0D, 5.0D);
 
         builder.pop();
 

@@ -1,8 +1,8 @@
 package com.freshsquilliam.fresharmsandarmor.client;
 
 import com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor;
-import com.freshsquilliam.fresharmsandarmor.item.BarbArmorMaterials;
-import com.freshsquilliam.fresharmsandarmor.item.custom.BarbarianArmorItem;
+import com.freshsquilliam.fresharmsandarmor.item.barbarian.BarbArmorMaterials;
+import com.freshsquilliam.fresharmsandarmor.item.barbarian.BarbarianArmorItem;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ArmorMaterial;
 import software.bernie.geckolib.model.GeoModel;

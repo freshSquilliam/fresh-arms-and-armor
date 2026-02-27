@@ -1,7 +1,13 @@
 package com.freshsquilliam.fresharmsandarmor;
 
-import com.freshsquilliam.fresharmsandarmor.combat.BarbarianArmorHandler;
+import com.freshsquilliam.fresharmsandarmor.item.barbarian.BarbarianArmorHandler;
 import com.freshsquilliam.fresharmsandarmor.item.*;
+import com.freshsquilliam.fresharmsandarmor.item.barbarian.BarbarianArmorRegistry;
+import com.freshsquilliam.fresharmsandarmor.item.barbarian.TwoHandedWeapons;
+import com.freshsquilliam.fresharmsandarmor.item.knight.KnightArmorRegistry;
+import com.freshsquilliam.fresharmsandarmor.item.knight.OneHandedWeapons;
+import com.freshsquilliam.fresharmsandarmor.item.vanguard.Polearms;
+import com.freshsquilliam.fresharmsandarmor.item.vanguard.VanguardArmorRegistry;
 import com.freshsquilliam.fresharmsandarmor.loot.ModLootModifiers;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -35,6 +41,7 @@ public class FreshArmsAndArmor {
         Polearms.ITEMS.register(modEventBus);
         BarbarianArmorRegistry.ITEMS.register(modEventBus);
         KnightArmorRegistry.ITEMS.register(modEventBus);
+        VanguardArmorRegistry.ITEMS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(BarbarianArmorHandler.class);

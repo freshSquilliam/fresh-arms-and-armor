@@ -1,6 +1,12 @@
 package com.freshsquilliam.fresharmsandarmor.item;
 
 import com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor;
+import com.freshsquilliam.fresharmsandarmor.item.barbarian.BarbarianArmorRegistry;
+import com.freshsquilliam.fresharmsandarmor.item.barbarian.TwoHandedWeapons;
+import com.freshsquilliam.fresharmsandarmor.item.knight.KnightArmorRegistry;
+import com.freshsquilliam.fresharmsandarmor.item.knight.OneHandedWeapons;
+import com.freshsquilliam.fresharmsandarmor.item.vanguard.Polearms;
+import com.freshsquilliam.fresharmsandarmor.item.vanguard.VanguardArmorRegistry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -127,6 +133,24 @@ public class ModCreativeTabs {
                                 output.accept(KnightArmorRegistry.NETHERITE_KNIGHT_CHESTPLATE.get());
                                 output.accept(KnightArmorRegistry.NETHERITE_KNIGHT_LEGGINGS.get());
                                 output.accept(KnightArmorRegistry.NETHERITE_KNIGHT_BOOTS.get());
+
+                                // -------- Vanguard Armor – Iron --------
+                                output.accept(VanguardArmorRegistry.IRON_VANGUARD_HELMET.get());
+                                output.accept(VanguardArmorRegistry.IRON_VANGUARD_CHESTPLATE.get());
+                                output.accept(VanguardArmorRegistry.IRON_VANGUARD_LEGGINGS.get());
+                                output.accept(VanguardArmorRegistry.IRON_VANGUARD_BOOTS.get());
+
+                                // -------- Vanguard Armor – Diamond --------
+                                output.accept(VanguardArmorRegistry.DIAMOND_VANGUARD_HELMET.get());
+                                output.accept(VanguardArmorRegistry.DIAMOND_VANGUARD_CHESTPLATE.get());
+                                output.accept(VanguardArmorRegistry.DIAMOND_VANGUARD_LEGGINGS.get());
+                                output.accept(VanguardArmorRegistry.DIAMOND_VANGUARD_BOOTS.get());
+
+                                // -------- Vanguard Armor – Netherite --------
+                                output.accept(VanguardArmorRegistry.NETHERITE_VANGUARD_HELMET.get());
+                                output.accept(VanguardArmorRegistry.NETHERITE_VANGUARD_CHESTPLATE.get());
+                                output.accept(VanguardArmorRegistry.NETHERITE_VANGUARD_LEGGINGS.get());
+                                output.accept(VanguardArmorRegistry.NETHERITE_VANGUARD_BOOTS.get());
 
                             })
                             .build()

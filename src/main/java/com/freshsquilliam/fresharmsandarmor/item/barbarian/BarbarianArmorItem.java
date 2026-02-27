@@ -1,7 +1,6 @@
-package com.freshsquilliam.fresharmsandarmor.item.custom;
+package com.freshsquilliam.fresharmsandarmor.item.barbarian;
 
 import com.freshsquilliam.fresharmsandarmor.client.BarbarianArmorRenderer;
-import com.freshsquilliam.fresharmsandarmor.item.BarbArmorMaterials;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.network.chat.Component;

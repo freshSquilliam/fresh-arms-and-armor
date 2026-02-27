@@ -388,7 +388,7 @@ java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent
 [07Feb2026 13:56:19.335] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Config file forge-server.toml for forge tracking
 [07Feb2026 13:56:19.335] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.ModLoadingContext/]: Attempted to register an empty config for type COMMON on mod forge
 [07Feb2026 13:56:19.336] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for fresharmsandarmor
-[07Feb2026 13:56:19.342] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.freshsquilliam.fresharmsandarmor.combat.BarbarianArmorHandler to FORGE
+[07Feb2026 13:56:19.342] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.freshsquilliam.fresharmsandarmor.item.barbarian.BarbarianArmorHandler to FORGE
 [07Feb2026 13:56:19.342] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.freshsquilliam.fresharmsandarmor.datagen.DataGenerators to MOD
 [07Feb2026 13:56:19.345] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor$ClientModEvents to MOD
 [07Feb2026 13:56:19.347] [modloading-worker-0/DEBUG] [net.minecraftforge.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.freshsquilliam.fresharmsandarmor.item.TooltipHandler to FORGE

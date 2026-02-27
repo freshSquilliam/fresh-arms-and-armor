@@ -1,4 +1,4 @@
-package com.freshsquilliam.fresharmsandarmor.item;
+package com.freshsquilliam.fresharmsandarmor.item.barbarian;
 
 import com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor;
 import net.minecraft.world.item.Item;

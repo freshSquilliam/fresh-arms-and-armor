@@ -1,7 +1,6 @@
-package com.freshsquilliam.fresharmsandarmor.item.custom;
+package com.freshsquilliam.fresharmsandarmor.item.knight;
 
 import com.freshsquilliam.fresharmsandarmor.client.KnightArmorRenderer;
-import com.freshsquilliam.fresharmsandarmor.item.KnightArmorMaterials;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.network.chat.Component;

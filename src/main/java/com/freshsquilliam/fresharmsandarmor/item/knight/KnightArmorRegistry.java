@@ -1,7 +1,6 @@
-package com.freshsquilliam.fresharmsandarmor.item;
+package com.freshsquilliam.fresharmsandarmor.item.knight;
 
 import com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor;
-import com.freshsquilliam.fresharmsandarmor.item.custom.KnightArmorItem;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;

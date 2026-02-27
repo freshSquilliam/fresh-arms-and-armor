@@ -1,4 +1,4 @@
-package com.freshsquilliam.fresharmsandarmor.item;
+package com.freshsquilliam.fresharmsandarmor.item.vanguard;
 
 import com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor;
 import net.minecraft.world.item.Item;

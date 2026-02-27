@@ -21,3 +21,14 @@
 	#Range: 0.0 ~ 5.0
 	netheriteBonus = 0.08
 
+["Vanguard Armor"]
+	#Damage bonus per piece of Iron Vanguard armor (0.045 = 4.5%)
+	#Range: 0.0 ~ 5.0
+	ironBonus = 0.045
+	#Damage bonus per piece of Diamond Vanguard armor (0.07 = 7%)
+	#Range: 0.0 ~ 5.0
+	diamondBonus = 0.07
+	#Damage bonus per piece of Netherite Vanguard armor (0.09 = 9%)
+	#Range: 0.0 ~ 5.0
+	netheriteBonus = 0.09
+
