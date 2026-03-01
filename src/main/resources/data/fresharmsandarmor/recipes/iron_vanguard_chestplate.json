@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CWC",
+    "III",
+    "III"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "C": {
+      "item": "minecraft:chain"
+    },
+    "W": {
+      "item": "fresharmsandarmor:war_sigil"
+    }
+  },
+  "result": {
+    "item": "fresharmsandarmor:iron_vanguard_chestplate"
+  }
+}

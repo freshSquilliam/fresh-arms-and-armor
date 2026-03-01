@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "III",
+    "LWL",
+    "L L"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:chain"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "W": {
+      "item": "fresharmsandarmor:war_sigil"
+    }
+  },
+  "result": {
+    "item": "fresharmsandarmor:iron_vanguard_leggings"
+  }
+}

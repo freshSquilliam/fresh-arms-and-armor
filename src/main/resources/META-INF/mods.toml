@@ -4,7 +4,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="fresharmsandarmor"
-version="0.2.2"
+version="0.3.0"
 displayName="Fresh Arms and Armor"
 authors="fresh_squilliam"
 description='''
@@ -21,6 +21,6 @@ side="BOTH"
 [[dependencies.fresharmsandarmor]]
 modId="minecraft"
 mandatory=true
-versionRange="[1.20.1,)"
+versionRange="[1.20.1,1.20.2)"
 ordering="NONE"
 side="BOTH"

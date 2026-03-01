@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "fresharmsandarmor:item/golden_pike"
+    "layer0": "fresharmsandarmor:item/diamond_pike"
   },
   "display": {
     "thirdperson_righthand": {

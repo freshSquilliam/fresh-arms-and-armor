@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "PPP",
-    "PS ",
+    "PSP",
     " S "
   ],
   "key": {
@@ -14,6 +14,6 @@
     }
   },
   "result": {
-    "item": "fresharmsandarmor:wooden_greataxe"
+    "item": "fresharmsandarmor:wooden_maul"
   }
 }
