@@ -32,5 +32,12 @@ public class TooltipHandler {
                             .withStyle(ChatFormatting.RED)
             );
         }
+
+        if (event.getItemStack().is(ModItemTags.LIGHT)) {
+            event.getToolTip().add(
+                    Component.literal("Light")
+                            .withStyle(ChatFormatting.RED)
+            );
+        }
     }
 }

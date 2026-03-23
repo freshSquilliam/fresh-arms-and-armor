@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OO",
+    "OS"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:gold_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "fresharmsandarmor:golden_handaxe"
+  }
+}

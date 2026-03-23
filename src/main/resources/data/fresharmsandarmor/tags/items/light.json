@@ -1,0 +1,24 @@
+{
+  "values": [
+    "fresharmsandarmor:wooden_shortsword",
+    "fresharmsandarmor:stone_shortsword",
+    "fresharmsandarmor:iron_shortsword",
+    "fresharmsandarmor:golden_shortsword",
+    "fresharmsandarmor:diamond_shortsword",
+    "fresharmsandarmor:netherite_shortsword",
+
+    "fresharmsandarmor:wooden_handaxe",
+    "fresharmsandarmor:stone_handaxe",
+    "fresharmsandarmor:iron_handaxe",
+    "fresharmsandarmor:golden_handaxe",
+    "fresharmsandarmor:diamond_handaxe",
+    "fresharmsandarmor:netherite_handaxe",
+
+    "fresharmsandarmor:wooden_scimitar",
+    "fresharmsandarmor:stone_scimitar",
+    "fresharmsandarmor:iron_scimitar",
+    "fresharmsandarmor:golden_scimitar",
+    "fresharmsandarmor:diamond_scimitar",
+    "fresharmsandarmor:netherite_scimitar"
+  ]
+}

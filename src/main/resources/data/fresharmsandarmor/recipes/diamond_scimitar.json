@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " O",
+    " O",
+    "OS"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "fresharmsandarmor:diamond_scimitar"
+  }
+}

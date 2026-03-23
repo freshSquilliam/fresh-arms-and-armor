@@ -59,6 +59,27 @@
   "item.fresharmsandarmor.diamond_spear": "Diamond Pike",
   "item.fresharmsandarmor.netherite_spear": "Netherite Pike",
 
+  "item.fresharmsandarmor.wooden_shortsword": "Wooden Shortsword",
+  "item.fresharmsandarmor.stone_shortsword": "Stone Shortsword",
+  "item.fresharmsandarmor.iron_shortsword": "Iron Shortsword",
+  "item.fresharmsandarmor.golden_shortsword": "Golden Shortsword",
+  "item.fresharmsandarmor.diamond_shortsword": "Diamond Shortsword",
+  "item.fresharmsandarmor.netherite_shortsword": "Netherite Shortsword",
+
+  "item.fresharmsandarmor.iron_handaxe": "Iron Handaxe",
+  "item.fresharmsandarmor.wooden_handaxe": "Wooden Handaxe",
+  "item.fresharmsandarmor.stone_handaxe": "Stone Handaxe",
+  "item.fresharmsandarmor.golden_handaxe": "Golden Handaxe",
+  "item.fresharmsandarmor.diamond_handaxe": "Diamond Handaxe",
+  "item.fresharmsandarmor.netherite_handaxe": "Netherite Handaxe",
+
+  "item.fresharmsandarmor.wooden_scimitar": "Wooden Scimitar",
+  "item.fresharmsandarmor.stone_scimitar": "Stone Scimitar",
+  "item.fresharmsandarmor.iron_scimitar": "Iron Scimitar",
+  "item.fresharmsandarmor.golden_scimitar": "Golden Scimitar",
+  "item.fresharmsandarmor.diamond_scimitar": "Diamond Scimitar",
+  "item.fresharmsandarmor.netherite_scimitar": "Netherite Scimitar",
+
   "item.fresharmsandarmor.iron_knight_helmet": "Iron Knight Helmet",
   "item.fresharmsandarmor.iron_knight_chestplate": "Iron Knight Chestplate",
   "item.fresharmsandarmor.iron_knight_leggings": "Iron Knight Leggings",

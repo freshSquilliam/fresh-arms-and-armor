@@ -34,4 +34,13 @@ public class ModItemTags {
                             "polearms"
                     )
             );
+
+    public static final TagKey<Item> LIGHT =
+            TagKey.create(
+                    Registries.ITEM,
+                    new ResourceLocation(
+                            FreshArmsAndArmor.MODID,
+                            "light"
+                    )
+            );
 }

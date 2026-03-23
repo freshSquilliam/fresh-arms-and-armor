@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "O",
+    "S"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:cobblestone"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "fresharmsandarmor:stone_shortsword"
+  }
+}

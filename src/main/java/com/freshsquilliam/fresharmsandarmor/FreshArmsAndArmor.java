@@ -8,6 +8,7 @@ import com.freshsquilliam.fresharmsandarmor.item.knight.KnightArmorRegistry;
 import com.freshsquilliam.fresharmsandarmor.item.knight.OneHandedWeapons;
 import com.freshsquilliam.fresharmsandarmor.item.vanguard.Polearms;
 import com.freshsquilliam.fresharmsandarmor.item.vanguard.VanguardArmorRegistry;
+import com.freshsquilliam.fresharmsandarmor.item.dualwielder.LightWeapons;
 import com.freshsquilliam.fresharmsandarmor.loot.ModLootModifiers;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -39,6 +40,7 @@ public class FreshArmsAndArmor {
         TwoHandedWeapons.ITEMS.register(modEventBus);
         OneHandedWeapons.ITEMS.register(modEventBus);
         Polearms.ITEMS.register(modEventBus);
+        LightWeapons.ITEMS.register(modEventBus);
         BarbarianArmorRegistry.ITEMS.register(modEventBus);
         KnightArmorRegistry.ITEMS.register(modEventBus);
         VanguardArmorRegistry.ITEMS.register(modEventBus);

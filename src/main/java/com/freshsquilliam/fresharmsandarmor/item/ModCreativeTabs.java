@@ -3,6 +3,7 @@ package com.freshsquilliam.fresharmsandarmor.item;
 import com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor;
 import com.freshsquilliam.fresharmsandarmor.item.barbarian.BarbarianArmorRegistry;
 import com.freshsquilliam.fresharmsandarmor.item.barbarian.TwoHandedWeapons;
+import com.freshsquilliam.fresharmsandarmor.item.dualwielder.LightWeapons;
 import com.freshsquilliam.fresharmsandarmor.item.knight.KnightArmorRegistry;
 import com.freshsquilliam.fresharmsandarmor.item.knight.OneHandedWeapons;
 import com.freshsquilliam.fresharmsandarmor.item.vanguard.Polearms;
@@ -90,6 +91,30 @@ public class ModCreativeTabs {
                                 output.accept(Polearms.GOLDEN_SPEAR.get());
                                 output.accept(Polearms.DIAMOND_SPEAR.get());
                                 output.accept(Polearms.NETHERITE_SPEAR.get());
+
+                                // -------- Shortswords --------
+                                output.accept(LightWeapons.WOODEN_SHORTSWORD.get());
+                                output.accept(LightWeapons.STONE_SHORTSWORD.get());
+                                output.accept(LightWeapons.IRON_SHORTSWORD.get());
+                                output.accept(LightWeapons.GOLDEN_SHORTSWORD.get());
+                                output.accept(LightWeapons.DIAMOND_SHORTSWORD.get());
+                                output.accept(LightWeapons.NETHERITE_SHORTSWORD.get());
+
+                                // -------- Handaxes --------
+                                output.accept(LightWeapons.WOODEN_HANDAXE.get());
+                                output.accept(LightWeapons.STONE_HANDAXE.get());
+                                output.accept(LightWeapons.IRON_HANDAXE.get());
+                                output.accept(LightWeapons.GOLDEN_HANDAXE.get());
+                                output.accept(LightWeapons.DIAMOND_HANDAXE.get());
+                                output.accept(LightWeapons.NETHERITE_HANDAXE.get());
+
+                                // -------- Scimitars --------
+                                output.accept(LightWeapons.WOODEN_SCIMITAR.get());
+                                output.accept(LightWeapons.STONE_SCIMITAR.get());
+                                output.accept(LightWeapons.IRON_SCIMITAR.get());
+                                output.accept(LightWeapons.GOLDEN_SCIMITAR.get());
+                                output.accept(LightWeapons.DIAMOND_SCIMITAR.get());
+                                output.accept(LightWeapons.NETHERITE_SCIMITAR.get());
 
                                 // -------- Shields --------
                                 output.accept(ModItems.WOODEN_SHIELD.get());
