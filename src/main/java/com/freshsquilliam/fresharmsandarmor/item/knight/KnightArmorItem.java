@@ -1,5 +1,6 @@
 package com.freshsquilliam.fresharmsandarmor.item.knight;
 
+import com.freshsquilliam.fresharmsandarmor.Config;
 import com.freshsquilliam.fresharmsandarmor.client.KnightArmorRenderer;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.model.HumanoidModel;
@@ -81,7 +82,7 @@ public class KnightArmorItem extends ArmorItem implements GeoItem {
         return cache;
     }
 
-    // ===== Tooltip =====
+// ===== Tooltip =====
 
     @Override
     public void appendHoverText(
@@ -93,8 +94,10 @@ public class KnightArmorItem extends ArmorItem implements GeoItem {
         float bonus = getOneHandedBonusForMaterial(this.getMaterial());
 
         if (bonus > 0.0F) {
+            int percent = Math.round(bonus * 100);
+
             tooltip.add(
-                    Component.literal("+" + bonus + "% One-Handed Weapon Damage")
+                    Component.literal("+" + percent + "% One-Handed Weapon Damage")
                             .withStyle(ChatFormatting.RED)
             );
         }
@@ -103,15 +106,15 @@ public class KnightArmorItem extends ArmorItem implements GeoItem {
     private static float getOneHandedBonusForMaterial(ArmorMaterial material) {
 
         if (material == KnightArmorMaterials.IRON) {
-            return 4.0F;
+            return Config.KNIGHT_IRON_BONUS.get().floatValue();
         }
 
         if (material == KnightArmorMaterials.DIAMOND) {
-            return 6.0F;
+            return Config.KNIGHT_DIAMOND_BONUS.get().floatValue();
         }
 
         if (material == KnightArmorMaterials.NETHERITE) {
-            return 8.0F;
+            return Config.KNIGHT_NETHERITE_BONUS.get().floatValue();
         }
 
         return 0.0F;

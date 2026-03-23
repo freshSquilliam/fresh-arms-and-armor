@@ -3,6 +3,7 @@ package com.freshsquilliam.fresharmsandarmor.item;
 import com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor;
 import com.freshsquilliam.fresharmsandarmor.item.barbarian.BarbarianArmorRegistry;
 import com.freshsquilliam.fresharmsandarmor.item.barbarian.TwoHandedWeapons;
+import com.freshsquilliam.fresharmsandarmor.item.dualwielder.DualWielderArmorRegistry;
 import com.freshsquilliam.fresharmsandarmor.item.dualwielder.LightWeapons;
 import com.freshsquilliam.fresharmsandarmor.item.knight.KnightArmorRegistry;
 import com.freshsquilliam.fresharmsandarmor.item.knight.OneHandedWeapons;
@@ -176,6 +177,24 @@ public class ModCreativeTabs {
                                 output.accept(VanguardArmorRegistry.NETHERITE_VANGUARD_CHESTPLATE.get());
                                 output.accept(VanguardArmorRegistry.NETHERITE_VANGUARD_LEGGINGS.get());
                                 output.accept(VanguardArmorRegistry.NETHERITE_VANGUARD_BOOTS.get());
+
+                                // -------- Dual Wielder Armor – Iron --------
+                                output.accept(DualWielderArmorRegistry.IRON_DUALWIELDER_HELMET.get());
+                                output.accept(DualWielderArmorRegistry.IRON_DUALWIELDER_CHESTPLATE.get());
+                                output.accept(DualWielderArmorRegistry.IRON_DUALWIELDER_LEGGINGS.get());
+                                output.accept(DualWielderArmorRegistry.IRON_DUALWIELDER_BOOTS.get());
+
+                                // -------- Dual Wielder Armor – Diamond --------
+                                output.accept(DualWielderArmorRegistry.DIAMOND_DUALWIELDER_HELMET.get());
+                                output.accept(DualWielderArmorRegistry.DIAMOND_DUALWIELDER_CHESTPLATE.get());
+                                output.accept(DualWielderArmorRegistry.DIAMOND_DUALWIELDER_LEGGINGS.get());
+                                output.accept(DualWielderArmorRegistry.DIAMOND_DUALWIELDER_BOOTS.get());
+
+                                // -------- Dual Wielder Armor – Netherite --------
+                                output.accept(DualWielderArmorRegistry.NETHERITE_DUALWIELDER_HELMET.get());
+                                output.accept(DualWielderArmorRegistry.NETHERITE_DUALWIELDER_CHESTPLATE.get());
+                                output.accept(DualWielderArmorRegistry.NETHERITE_DUALWIELDER_LEGGINGS.get());
+                                output.accept(DualWielderArmorRegistry.NETHERITE_DUALWIELDER_BOOTS.get());
 
                             })
                             .build()

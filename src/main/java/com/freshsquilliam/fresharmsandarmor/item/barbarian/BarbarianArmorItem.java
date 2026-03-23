@@ -1,5 +1,6 @@
 package com.freshsquilliam.fresharmsandarmor.item.barbarian;
 
+import com.freshsquilliam.fresharmsandarmor.Config;
 import com.freshsquilliam.fresharmsandarmor.client.BarbarianArmorRenderer;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.model.HumanoidModel;
@@ -81,7 +82,7 @@ public class BarbarianArmorItem extends ArmorItem implements GeoItem {
         return cache;
     }
 
-    // ===== Tooltip =====
+// ===== Tooltip =====
 
     @Override
     public void appendHoverText(
@@ -93,8 +94,10 @@ public class BarbarianArmorItem extends ArmorItem implements GeoItem {
         float bonus = getTwoHandedBonusForMaterial(this.getMaterial());
 
         if (bonus > 0.0F) {
+            int percent = Math.round(bonus * 100);
+
             tooltip.add(
-                    Component.literal("+" + bonus + "% Two-Handed Weapon Damage")
+                    Component.literal("+" + percent + "% Two-Handed Weapon Damage")
                             .withStyle(ChatFormatting.RED)
             );
         }
@@ -103,15 +106,15 @@ public class BarbarianArmorItem extends ArmorItem implements GeoItem {
     private static float getTwoHandedBonusForMaterial(ArmorMaterial material) {
 
         if (material == BarbArmorMaterials.IRON) {
-            return 5.0F;
+            return Config.BARB_IRON_BONUS.get().floatValue();
         }
 
         if (material == BarbArmorMaterials.DIAMOND) {
-            return 7.5F;
+            return Config.BARB_DIAMOND_BONUS.get().floatValue();
         }
 
         if (material == BarbArmorMaterials.NETHERITE) {
-            return 10.0F;
+            return Config.BARB_NETHERITE_BONUS.get().floatValue();
         }
 
         return 0.0F;

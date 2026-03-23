@@ -30,6 +30,14 @@ public class Config {
     public static final ForgeConfigSpec.DoubleValue VANGUARD_DIAMOND_BONUS;
     public static final ForgeConfigSpec.DoubleValue VANGUARD_NETHERITE_BONUS;
 
+    // ----------------------
+    // DUAL WIELDER
+    // ----------------------
+
+    public static final ForgeConfigSpec.DoubleValue DUAL_IRON_SPEED;
+    public static final ForgeConfigSpec.DoubleValue DUAL_DIAMOND_SPEED;
+    public static final ForgeConfigSpec.DoubleValue DUAL_NETHERITE_SPEED;
+
 
     static {
         ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
@@ -91,6 +99,26 @@ public class Config {
         VANGUARD_NETHERITE_BONUS = builder
                 .comment("Damage bonus per piece of Netherite Vanguard armor (0.09 = 9%)")
                 .defineInRange("netheriteBonus", 0.09D, 0.0D, 5.0D);
+
+        builder.pop();
+
+        // ----------------------
+        // Dual Wielder
+        // ----------------------
+
+        builder.push("Dual Wielder Armor");
+
+        DUAL_IRON_SPEED = builder
+                .comment("Attack speed bonus per piece of Iron Dual Wielder armor (0.045 = 4.5%)")
+                .defineInRange("ironSpeed", 0.045D, 0.0D, 5.0D);
+
+        DUAL_DIAMOND_SPEED = builder
+                .comment("Attack speed bonus per piece of Diamond Dual Wielder armor (0.07 = 7%)")
+                .defineInRange("diamondSpeed", 0.07D, 0.0D, 5.0D);
+
+        DUAL_NETHERITE_SPEED = builder
+                .comment("Attack speed bonus per piece of Netherite Dual Wielder armor (0.09 = 9%)")
+                .defineInRange("netheriteSpeed", 0.09D, 0.0D, 5.0D);
 
         builder.pop();
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IRI",
+    "IWI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "R": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "W": {
+      "item": "fresharmsandarmor:war_sigil"
+    }
+  },
+  "result": {
+    "item": "fresharmsandarmor:iron_dualwielder_boots"
+  }
+}

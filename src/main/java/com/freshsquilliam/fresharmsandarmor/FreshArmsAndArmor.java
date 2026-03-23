@@ -4,6 +4,7 @@ import com.freshsquilliam.fresharmsandarmor.item.barbarian.BarbarianArmorHandler
 import com.freshsquilliam.fresharmsandarmor.item.*;
 import com.freshsquilliam.fresharmsandarmor.item.barbarian.BarbarianArmorRegistry;
 import com.freshsquilliam.fresharmsandarmor.item.barbarian.TwoHandedWeapons;
+import com.freshsquilliam.fresharmsandarmor.item.dualwielder.DualWielderArmorRegistry;
 import com.freshsquilliam.fresharmsandarmor.item.knight.KnightArmorRegistry;
 import com.freshsquilliam.fresharmsandarmor.item.knight.OneHandedWeapons;
 import com.freshsquilliam.fresharmsandarmor.item.vanguard.Polearms;
@@ -44,6 +45,7 @@ public class FreshArmsAndArmor {
         BarbarianArmorRegistry.ITEMS.register(modEventBus);
         KnightArmorRegistry.ITEMS.register(modEventBus);
         VanguardArmorRegistry.ITEMS.register(modEventBus);
+        DualWielderArmorRegistry.ITEMS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(BarbarianArmorHandler.class);

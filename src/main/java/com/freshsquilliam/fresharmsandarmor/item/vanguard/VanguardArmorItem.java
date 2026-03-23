@@ -1,5 +1,6 @@
 package com.freshsquilliam.fresharmsandarmor.item.vanguard;
 
+import com.freshsquilliam.fresharmsandarmor.Config;
 import com.freshsquilliam.fresharmsandarmor.client.VanguardArmorRenderer;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.model.HumanoidModel;
@@ -81,7 +82,7 @@ public class VanguardArmorItem extends ArmorItem implements GeoItem {
         return cache;
     }
 
-    // ===== Tooltip =====
+// ===== Tooltip =====
 
     @Override
     public void appendHoverText(
@@ -93,8 +94,10 @@ public class VanguardArmorItem extends ArmorItem implements GeoItem {
         float bonus = getPolearmsBonusForMaterial(this.getMaterial());
 
         if (bonus > 0.0F) {
+            int percent = Math.round(bonus * 100);
+
             tooltip.add(
-                    Component.literal("+" + bonus + "% Polearm Damage")
+                    Component.literal("+" + percent + "% Polearm Damage")
                             .withStyle(ChatFormatting.RED)
             );
         }
@@ -103,15 +106,15 @@ public class VanguardArmorItem extends ArmorItem implements GeoItem {
     private static float getPolearmsBonusForMaterial(ArmorMaterial material) {
 
         if (material == VanguardArmorMaterials.IRON) {
-            return 4.5F;
+            return Config.VANGUARD_IRON_BONUS.get().floatValue();
         }
 
         if (material == VanguardArmorMaterials.DIAMOND) {
-            return 7.0F;
+            return Config.VANGUARD_DIAMOND_BONUS.get().floatValue();
         }
 
         if (material == VanguardArmorMaterials.NETHERITE) {
-            return 9.0F;
+            return Config.VANGUARD_NETHERITE_BONUS.get().floatValue();
         }
 
         return 0.0F;

@@ -135,11 +135,25 @@
   "item.fresharmsandarmor.netherite_vanguard_leggings": "Netherite Vanguard Leggings",
   "item.fresharmsandarmor.netherite_vanguard_boots": "Netherite Vanguard Boots",
 
+  "item.fresharmsandarmor.iron_dualwielder_helmet": "Iron Dual Wielder Helmet",
+  "item.fresharmsandarmor.iron_dualwielder_chestplate": "Iron Dual Wielder Chestplate",
+  "item.fresharmsandarmor.iron_dualwielder_leggings": "Iron Dual Wielder Leggings",
+  "item.fresharmsandarmor.iron_dualwielder_boots": "Iron Dual Wielder Boots",
+
+  "item.fresharmsandarmor.diamond_dualwielder_helmet": "Diamond Dual Wielder Helmet",
+  "item.fresharmsandarmor.diamond_dualwielder_chestplate": "Diamond Dual Wielder Chestplate",
+  "item.fresharmsandarmor.diamond_dualwielder_leggings": "Diamond Dual Wielder Leggings",
+  "item.fresharmsandarmor.diamond_dualwielder_boots": "Diamond Dual Wielder Boots",
+
+  "item.fresharmsandarmor.netherite_dualwielder_helmet": "Netherite Dual Wielder Helmet",
+  "item.fresharmsandarmor.netherite_dualwielder_chestplate": "Netherite Dual Wielder Chestplate",
+  "item.fresharmsandarmor.netherite_dualwielder_leggings": "Netherite Dual Wielder Leggings",
+  "item.fresharmsandarmor.netherite_dualwielder_boots": "Netherite Dual Wielder Boots",
+
   "item.fresharmsandarmor.wooden_shield": "Wooden Shield",
   "item.fresharmsandarmor.iron_shield": "Iron Shield",
   "item.fresharmsandarmor.golden_shield": "Golden Shield",
   "item.fresharmsandarmor.diamond_shield": "Diamond Shield",
   "item.fresharmsandarmor.netherite_shield": "Netherite Shield"
-
 
 }

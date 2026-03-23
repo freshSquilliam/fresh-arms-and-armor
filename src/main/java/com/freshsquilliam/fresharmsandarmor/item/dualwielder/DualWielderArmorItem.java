@@ -1,5 +1,6 @@
 package com.freshsquilliam.fresharmsandarmor.item.dualwielder;
 
+import com.freshsquilliam.fresharmsandarmor.Config;
 import com.freshsquilliam.fresharmsandarmor.client.DualWielderArmorRenderer;
 import com.freshsquilliam.fresharmsandarmor.item.dualwielder.DualWielderArmorMaterials;
 import net.minecraft.ChatFormatting;
@@ -82,7 +83,7 @@ public class DualWielderArmorItem extends ArmorItem implements GeoItem {
         return cache;
     }
 
-    // ===== Tooltip =====
+// ===== Tooltip =====
 
     @Override
     public void appendHoverText(
@@ -91,28 +92,30 @@ public class DualWielderArmorItem extends ArmorItem implements GeoItem {
             List<Component> tooltip,
             TooltipFlag flag
     ) {
-        float bonus = getTwoHandedBonusForMaterial(this.getMaterial());
+        float bonus = getSpeedBonusForMaterial(this.getMaterial());
 
         if (bonus > 0.0F) {
+            int percent = Math.round(bonus * 100);
+
             tooltip.add(
-                    Component.literal("+" + bonus + "% Two-Handed Weapon Damage")
-                            .withStyle(ChatFormatting.RED)
+                    Component.literal("+" + percent + "% Attack Speed")
+                            .withStyle(ChatFormatting.AQUA)
             );
         }
     }
 
-    private static float getTwoHandedBonusForMaterial(ArmorMaterial material) {
+    private static float getSpeedBonusForMaterial(ArmorMaterial material) {
 
         if (material == DualWielderArmorMaterials.IRON) {
-            return 5.0F;
+            return Config.DUAL_IRON_SPEED.get().floatValue();
         }
 
         if (material == DualWielderArmorMaterials.DIAMOND) {
-            return 7.5F;
+            return Config.DUAL_DIAMOND_SPEED.get().floatValue();
         }
 
         if (material == DualWielderArmorMaterials.NETHERITE) {
-            return 10.0F;
+            return Config.DUAL_NETHERITE_SPEED.get().floatValue();
         }
 
         return 0.0F;
