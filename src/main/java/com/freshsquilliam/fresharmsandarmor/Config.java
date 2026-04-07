@@ -109,8 +109,8 @@ public class Config {
         builder.push("Dual Wielder Armor");
 
         DUAL_IRON_SPEED = builder
-                .comment("Attack speed bonus per piece of Iron Dual Wielder armor (0.045 = 4.5%)")
-                .defineInRange("ironSpeed", 0.045D, 0.0D, 5.0D);
+                .comment("Attack speed bonus per piece of Iron Dual Wielder armor (0.05 = 5%)")
+                .defineInRange("ironSpeed", 0.05D, 0.0D, 5.0D);
 
         DUAL_DIAMOND_SPEED = builder
                 .comment("Attack speed bonus per piece of Diamond Dual Wielder armor (0.07 = 7%)")
