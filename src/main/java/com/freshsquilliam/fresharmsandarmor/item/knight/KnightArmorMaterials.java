@@ -16,7 +16,7 @@ import java.util.EnumMap;
 import java.util.function.Supplier;
 
 public enum KnightArmorMaterials implements ArmorMaterial {
-    IRON("iron", 15, (EnumMap)Util.make(new EnumMap(ArmorItem.Type.class), (p_266655_) -> {
+    IRON("iron", 22, (EnumMap)Util.make(new EnumMap(ArmorItem.Type.class), (p_266655_) -> {
         p_266655_.put(ArmorItem.Type.BOOTS, 3);
         p_266655_.put(ArmorItem.Type.LEGGINGS, 5);
         p_266655_.put(ArmorItem.Type.CHESTPLATE, 6);
@@ -24,7 +24,7 @@ public enum KnightArmorMaterials implements ArmorMaterial {
     }), 15, SoundEvents.ARMOR_EQUIP_IRON, 1.0F, 0.1F, () -> Ingredient.of(new ItemLike[]{
         Items.IRON_INGOT})),
 
-    DIAMOND("diamond", 33, (EnumMap)Util.make(new EnumMap(ArmorItem.Type.class), (p_266655_) -> {
+    DIAMOND("diamond", 37, (EnumMap)Util.make(new EnumMap(ArmorItem.Type.class), (p_266655_) -> {
         p_266655_.put(ArmorItem.Type.BOOTS, 4);
         p_266655_.put(ArmorItem.Type.LEGGINGS, 6);
         p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
@@ -32,7 +32,7 @@ public enum KnightArmorMaterials implements ArmorMaterial {
     }), 15, SoundEvents.ARMOR_EQUIP_DIAMOND, 3.0F, 0.2F, () -> Ingredient.of(new ItemLike[]{
             Items.DIAMOND})),
 
-    NETHERITE("netherite", 37, (EnumMap)Util.make(new EnumMap(ArmorItem.Type.class), (p_266655_) -> {
+    NETHERITE("netherite", 40, (EnumMap)Util.make(new EnumMap(ArmorItem.Type.class), (p_266655_) -> {
         p_266655_.put(ArmorItem.Type.BOOTS, 4);
         p_266655_.put(ArmorItem.Type.LEGGINGS, 6);
         p_266655_.put(ArmorItem.Type.CHESTPLATE, 7);
@@ -43,10 +43,10 @@ public enum KnightArmorMaterials implements ArmorMaterial {
 
     public static final StringRepresentable.EnumCodec<ArmorMaterials> CODEC = StringRepresentable.fromEnum(ArmorMaterials::values);
     private static final EnumMap<ArmorItem.Type, Integer> HEALTH_FUNCTION_FOR_TYPE = (EnumMap) Util.make(new EnumMap(ArmorItem.Type.class), (p_266653_) -> {
-        p_266653_.put(ArmorItem.Type.BOOTS, 13);
+        p_266653_.put(ArmorItem.Type.BOOTS, 14);
         p_266653_.put(ArmorItem.Type.LEGGINGS, 15);
         p_266653_.put(ArmorItem.Type.CHESTPLATE, 16);
-        p_266653_.put(ArmorItem.Type.HELMET, 11);
+        p_266653_.put(ArmorItem.Type.HELMET, 14);
     });
     private final String name;
     private final int durabilityMultiplier;
