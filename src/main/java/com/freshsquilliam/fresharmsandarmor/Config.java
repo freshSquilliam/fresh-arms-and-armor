@@ -38,6 +38,15 @@ public class Config {
     public static final ForgeConfigSpec.DoubleValue DUAL_DIAMOND_SPEED;
     public static final ForgeConfigSpec.DoubleValue DUAL_NETHERITE_SPEED;
 
+    // ----------------------
+    // ARCHER
+    // ----------------------
+
+    public static final ForgeConfigSpec.DoubleValue ARCHER_IRON_BONUS;
+    public static final ForgeConfigSpec.DoubleValue ARCHER_DIAMOND_BONUS;
+    public static final ForgeConfigSpec.DoubleValue ARCHER_NETHERITE_BONUS;
+
+
 
     static {
         ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
@@ -119,6 +128,26 @@ public class Config {
         DUAL_NETHERITE_SPEED = builder
                 .comment("Attack speed bonus per piece of Netherite Dual Wielder armor (0.09 = 9%)")
                 .defineInRange("netheriteSpeed", 0.09D, 0.0D, 5.0D);
+
+        builder.pop();
+
+        // ----------------------
+        // Archer
+        // ----------------------
+
+        builder.push("Archer Armor");
+
+        ARCHER_IRON_BONUS = builder
+                .comment("Draw speed bonus per piece of Iron Archer armor (0.05 = 5%)")
+                .defineInRange("ironBonus", 0.05D, 0.0D, 5.0D);
+
+        ARCHER_DIAMOND_BONUS = builder
+                .comment("Draw speed bonus per piece of Diamond Archer armor (0.075 = 7.5%)")
+                .defineInRange("diamondBonus", 0.075D, 0.0D, 5.0D);
+
+        ARCHER_NETHERITE_BONUS = builder
+                .comment("Draw speed bonus per piece of Netherite Archer armor (0.10 = 10%)")
+                .defineInRange("netheriteBonus", 0.10D, 0.0D, 5.0D);
 
         builder.pop();
 

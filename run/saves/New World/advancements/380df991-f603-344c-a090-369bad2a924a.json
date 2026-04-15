@@ -795,5 +795,17 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2026-04-14 10:43:40 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2026-04-15 12:42:00 -0400"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

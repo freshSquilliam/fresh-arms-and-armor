@@ -4,6 +4,8 @@ import com.freshsquilliam.fresharmsandarmor.Config;
 import com.freshsquilliam.fresharmsandarmor.item.ModItemTags;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.monster.EnderMan;
+import net.minecraft.world.entity.monster.ZombifiedPiglin;
 import net.minecraft.world.entity.monster.Enemy;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -101,6 +103,12 @@ public class KnightArmorHandler {
 
             if (!(mob instanceof Enemy)) continue;
             if (!mob.isAlive()) continue;
+
+            // ----------------------
+            // EXCEPTIONS (NEUTRAL MOBS)
+            // ----------------------
+            if (mob instanceof EnderMan) continue;
+            if (mob instanceof ZombifiedPiglin) continue;
 
             if (mob.getAttribute(Attributes.FOLLOW_RANGE) != null) {
                 double followRange = mob.getAttribute(Attributes.FOLLOW_RANGE).getValue();

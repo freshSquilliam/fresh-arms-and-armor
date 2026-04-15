@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "OWO",
+    "OOO",
+    "LIL"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "L": {
+      "item": "minecraft:leather"
+    },
+    "O": {
+      "tag": "minecraft:wool"
+    },
+    "W": {
+      "item": "fresharmsandarmor:war_sigil"
+    }
+  },
+  "result": {
+    "item": "fresharmsandarmor:iron_archer_chestplate"
+  }
+}

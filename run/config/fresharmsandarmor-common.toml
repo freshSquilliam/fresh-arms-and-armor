@@ -33,7 +33,7 @@
 	netheriteBonus = 0.09
 
 ["Dual Wielder Armor"]
-	#Attack speed bonus per piece of Iron Dual Wielder armor (0.045 = 4.5%)
+	#Attack speed bonus per piece of Iron Dual Wielder armor (0.05 = 5%)
 	#Range: 0.0 ~ 5.0
 	ironSpeed = 0.045
 	#Attack speed bonus per piece of Diamond Dual Wielder armor (0.07 = 7%)
@@ -42,4 +42,15 @@
 	#Attack speed bonus per piece of Netherite Dual Wielder armor (0.09 = 9%)
 	#Range: 0.0 ~ 5.0
 	netheriteSpeed = 0.09
+
+["Archer Armor"]
+	#Draw speed bonus per piece of Iron Archer armor (0.05 = 5%)
+	#Range: 0.0 ~ 5.0
+	ironBonus = 0.05
+	#Draw speed bonus per piece of Diamond Archer armor (0.075 = 7.5%)
+	#Range: 0.0 ~ 5.0
+	diamondBonus = 0.075
+	#Draw speed bonus per piece of Netherite Archer armor (0.10 = 10%)
+	#Range: 0.0 ~ 5.0
+	netheriteBonus = 0.1
 

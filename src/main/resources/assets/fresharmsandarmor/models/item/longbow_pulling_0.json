@@ -1,0 +1,6 @@
+{
+  "parent": "fresharmsandarmor:item/longbow",
+  "textures": {
+    "layer0": "fresharmsandarmor:item/longbow_pulling_0"
+  }
+}

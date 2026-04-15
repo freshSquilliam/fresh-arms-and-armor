@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSI",
+    "S I",
+    "SSI"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:string"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "fresharmsandarmor:longbow"
+  }
+}

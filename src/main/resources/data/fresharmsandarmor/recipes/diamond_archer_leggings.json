@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "DDD",
+    "DID",
+    "D D"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "I": {
+      "item": "fresharmsandarmor:iron_archer_leggings"
+    }
+  },
+  "result": {
+    "item": "fresharmsandarmor:diamond_archer_leggings"
+  }
+}

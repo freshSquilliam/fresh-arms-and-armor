@@ -1,7 +1,9 @@
 package com.freshsquilliam.fresharmsandarmor.item;
 
 import com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor;
+import com.freshsquilliam.fresharmsandarmor.item.archer.CustomBowItem;
 import com.freshsquilliam.fresharmsandarmor.item.knight.Shields;
+import net.minecraft.world.item.BowItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -52,4 +54,20 @@ public class ModItems {
                                     .durability(500)
                                     .fireResistant()
                     ));
+
+    public static final RegistryObject<Item> LONGBOW = ITEMS.register("longbow",
+            () -> new CustomBowItem(
+                    new Item.Properties().durability(400),
+                    4.5F,  // arrowSpeed (stronger, faster shot)
+                    30F,   // pullTime (slow draw)
+                    false  // autoRelease (longbow = manual)
+            ));
+
+    public static final RegistryObject<Item> SHORTBOW = ITEMS.register("shortbow",
+            () -> new CustomBowItem(
+                    new Item.Properties().durability(400),
+                    2.0F,  // arrowSpeed (weaker shot)
+                    10F,   // pullTime (fast draw)
+                    true   // autoRelease (shortbow = automatic)
+            ));
 }

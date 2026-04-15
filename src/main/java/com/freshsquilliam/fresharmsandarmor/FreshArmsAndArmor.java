@@ -1,5 +1,6 @@
 package com.freshsquilliam.fresharmsandarmor;
 
+import com.freshsquilliam.fresharmsandarmor.item.archer.ArcherArmorRegistry;
 import com.freshsquilliam.fresharmsandarmor.item.barbarian.BarbarianArmorHandler;
 import com.freshsquilliam.fresharmsandarmor.item.*;
 import com.freshsquilliam.fresharmsandarmor.item.barbarian.BarbarianArmorRegistry;
@@ -47,6 +48,7 @@ public class FreshArmsAndArmor {
         VanguardArmorRegistry.ITEMS.register(modEventBus);
         DualWielderArmorRegistry.ITEMS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
+        ArcherArmorRegistry.ITEMS.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(BarbarianArmorHandler.class);
         MinecraftForge.EVENT_BUS.register(this);

@@ -1,6 +1,7 @@
 package com.freshsquilliam.fresharmsandarmor.item;
 
 import com.freshsquilliam.fresharmsandarmor.FreshArmsAndArmor;
+import com.freshsquilliam.fresharmsandarmor.item.archer.ArcherArmorRegistry;
 import com.freshsquilliam.fresharmsandarmor.item.barbarian.BarbarianArmorRegistry;
 import com.freshsquilliam.fresharmsandarmor.item.barbarian.TwoHandedWeapons;
 import com.freshsquilliam.fresharmsandarmor.item.dualwielder.DualWielderArmorRegistry;
@@ -124,6 +125,10 @@ public class ModCreativeTabs {
                                 output.accept(ModItems.DIAMOND_SHIELD.get());
                                 output.accept(ModItems.NETHERITE_SHIELD.get());
 
+                                // -------- Bows --------
+                                output.accept(ModItems.SHORTBOW.get());
+                                output.accept(ModItems.LONGBOW.get());
+
                                 // -------- Barbarian Armor – Iron --------
                                 output.accept(BarbarianArmorRegistry.IRON_BARBARIAN_HELMET.get());
                                 output.accept(BarbarianArmorRegistry.IRON_BARBARIAN_CHESTPLATE.get());
@@ -195,6 +200,24 @@ public class ModCreativeTabs {
                                 output.accept(DualWielderArmorRegistry.NETHERITE_DUALWIELDER_CHESTPLATE.get());
                                 output.accept(DualWielderArmorRegistry.NETHERITE_DUALWIELDER_LEGGINGS.get());
                                 output.accept(DualWielderArmorRegistry.NETHERITE_DUALWIELDER_BOOTS.get());
+
+                                // -------- Archer Armor – Iron --------
+                                output.accept(ArcherArmorRegistry.IRON_ARCHER_HELMET.get());
+                                output.accept(ArcherArmorRegistry.IRON_ARCHER_CHESTPLATE.get());
+                                output.accept(ArcherArmorRegistry.IRON_ARCHER_LEGGINGS.get());
+                                output.accept(ArcherArmorRegistry.IRON_ARCHER_BOOTS.get());
+
+                                // -------- Archer Armor – Diamond --------
+                                output.accept(ArcherArmorRegistry.DIAMOND_ARCHER_HELMET.get());
+                                output.accept(ArcherArmorRegistry.DIAMOND_ARCHER_CHESTPLATE.get());
+                                output.accept(ArcherArmorRegistry.DIAMOND_ARCHER_LEGGINGS.get());
+                                output.accept(ArcherArmorRegistry.DIAMOND_ARCHER_BOOTS.get());
+
+                                // -------- Archer Armor – Netherite --------
+                                output.accept(ArcherArmorRegistry.NETHERITE_ARCHER_HELMET.get());
+                                output.accept(ArcherArmorRegistry.NETHERITE_ARCHER_CHESTPLATE.get());
+                                output.accept(ArcherArmorRegistry.NETHERITE_ARCHER_LEGGINGS.get());
+                                output.accept(ArcherArmorRegistry.NETHERITE_ARCHER_BOOTS.get());
 
                             })
                             .build()

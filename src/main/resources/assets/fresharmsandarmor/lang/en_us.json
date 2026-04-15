@@ -80,10 +80,10 @@
   "item.fresharmsandarmor.diamond_scimitar": "Diamond Scimitar",
   "item.fresharmsandarmor.netherite_scimitar": "Netherite Scimitar",
 
-  "item.fresharmsandarmor.iron_knight_helmet": "Iron Knight Helmet",
-  "item.fresharmsandarmor.iron_knight_chestplate": "Iron Knight Chestplate",
-  "item.fresharmsandarmor.iron_knight_leggings": "Iron Knight Leggings",
-  "item.fresharmsandarmor.iron_knight_boots": "Iron Knight Boots",
+  "item.fresharmsandarmor.iron_knight_helmet": "Knight Helmet",
+  "item.fresharmsandarmor.iron_knight_chestplate": "Knight Chestplate",
+  "item.fresharmsandarmor.iron_knight_leggings": "Knight Leggings",
+  "item.fresharmsandarmor.iron_knight_boots": "Knight Boots",
 
   "item.fresharmsandarmor.golden_knight_helmet": "Golden Knight Helmet",
   "item.fresharmsandarmor.golden_knight_chestplate": "Golden Knight Chestplate",
@@ -100,10 +100,10 @@
   "item.fresharmsandarmor.netherite_knight_leggings": "Netherite Knight Leggings",
   "item.fresharmsandarmor.netherite_knight_boots": "Netherite Knight Boots",
 
-  "item.fresharmsandarmor.iron_barbarian_helmet": "Iron Barbarian Helmet",
-  "item.fresharmsandarmor.iron_barbarian_chestplate": "Iron Barbarian Chestplate",
-  "item.fresharmsandarmor.iron_barbarian_leggings": "Iron Barbarian Leggings",
-  "item.fresharmsandarmor.iron_barbarian_boots": "Iron Barbarian Boots",
+  "item.fresharmsandarmor.iron_barbarian_helmet": "Barbarian Helmet",
+  "item.fresharmsandarmor.iron_barbarian_chestplate": "Barbarian Chestplate",
+  "item.fresharmsandarmor.iron_barbarian_leggings": "Barbarian Leggings",
+  "item.fresharmsandarmor.iron_barbarian_boots": "Barbarian Boots",
 
   "item.fresharmsandarmor.diamond_barbarian_helmet": "Diamond Barbarian Helmet",
   "item.fresharmsandarmor.diamond_barbarian_chestplate": "Diamond Barbarian Chestplate",
@@ -115,10 +115,10 @@
   "item.fresharmsandarmor.netherite_barbarian_leggings": "Netherite Barbarian Leggings",
   "item.fresharmsandarmor.netherite_barbarian_boots": "Netherite Barbarian Boots",
 
-  "item.fresharmsandarmor.iron_vanguard_helmet": "Iron Vanguard Helmet",
-  "item.fresharmsandarmor.iron_vanguard_chestplate": "Iron Vanguard Chestplate",
-  "item.fresharmsandarmor.iron_vanguard_leggings": "Iron Vanguard Leggings",
-  "item.fresharmsandarmor.iron_vanguard_boots": "Iron Vanguard Boots",
+  "item.fresharmsandarmor.iron_vanguard_helmet": "Vanguard Helmet",
+  "item.fresharmsandarmor.iron_vanguard_chestplate": "Vanguard Chestplate",
+  "item.fresharmsandarmor.iron_vanguard_leggings": "Vanguard Leggings",
+  "item.fresharmsandarmor.iron_vanguard_boots": "Vanguard Boots",
 
   "item.fresharmsandarmor.golden_vanguard_helmet": "Golden Vanguard Helmet",
   "item.fresharmsandarmor.golden_vanguard_chestplate": "Golden Vanguard Chestplate",
@@ -135,10 +135,10 @@
   "item.fresharmsandarmor.netherite_vanguard_leggings": "Netherite Vanguard Leggings",
   "item.fresharmsandarmor.netherite_vanguard_boots": "Netherite Vanguard Boots",
 
-  "item.fresharmsandarmor.iron_dualwielder_helmet": "Iron Dual Wielder Helmet",
-  "item.fresharmsandarmor.iron_dualwielder_chestplate": "Iron Dual Wielder Chestplate",
-  "item.fresharmsandarmor.iron_dualwielder_leggings": "Iron Dual Wielder Leggings",
-  "item.fresharmsandarmor.iron_dualwielder_boots": "Iron Dual Wielder Boots",
+  "item.fresharmsandarmor.iron_dualwielder_helmet": "Dual Wielder Helmet",
+  "item.fresharmsandarmor.iron_dualwielder_chestplate": "Dual Wielder Chestplate",
+  "item.fresharmsandarmor.iron_dualwielder_leggings": "Dual Wielder Leggings",
+  "item.fresharmsandarmor.iron_dualwielder_boots": "Dual Wielder Boots",
 
   "item.fresharmsandarmor.diamond_dualwielder_helmet": "Diamond Dual Wielder Helmet",
   "item.fresharmsandarmor.diamond_dualwielder_chestplate": "Diamond Dual Wielder Chestplate",
@@ -150,10 +150,27 @@
   "item.fresharmsandarmor.netherite_dualwielder_leggings": "Netherite Dual Wielder Leggings",
   "item.fresharmsandarmor.netherite_dualwielder_boots": "Netherite Dual Wielder Boots",
 
+  "item.fresharmsandarmor.iron_archer_helmet": "Archer Helmet",
+  "item.fresharmsandarmor.iron_archer_chestplate": "Archer Chestplate",
+  "item.fresharmsandarmor.iron_archer_leggings": "Archer Leggings",
+  "item.fresharmsandarmor.iron_archer_boots": "Archer Boots",
+
+  "item.fresharmsandarmor.diamond_archer_helmet": "Diamond Archer Helmet",
+  "item.fresharmsandarmor.diamond_archer_chestplate": "Diamond Archer Chestplate",
+  "item.fresharmsandarmor.diamond_archer_leggings": "Diamond Archer Leggings",
+  "item.fresharmsandarmor.diamond_archer_boots": "Diamond Archer Boots",
+
+  "item.fresharmsandarmor.netherite_archer_helmet": "Netherite Archer Helmet",
+  "item.fresharmsandarmor.netherite_archer_chestplate": "Netherite Archer Chestplate",
+  "item.fresharmsandarmor.netherite_archer_leggings": "Netherite Archer Leggings",
+  "item.fresharmsandarmor.netherite_archer_boots": "Netherite Archer Boots",
+
   "item.fresharmsandarmor.wooden_shield": "Wooden Shield",
   "item.fresharmsandarmor.iron_shield": "Iron Shield",
   "item.fresharmsandarmor.golden_shield": "Golden Shield",
   "item.fresharmsandarmor.diamond_shield": "Diamond Shield",
-  "item.fresharmsandarmor.netherite_shield": "Netherite Shield"
+  "item.fresharmsandarmor.netherite_shield": "Netherite Shield",
 
+  "item.fresharmsandarmor.longbow": "Longbow",
+  "item.fresharmsandarmor.shortbow": "Shortbow"
 }
